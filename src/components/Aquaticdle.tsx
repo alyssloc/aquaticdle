@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { SPECIES_DATA } from '../animals/species.ts';
 import { MAX_ATTEMPTS } from './types.ts';
 import Search from './Search.tsx'
@@ -56,9 +56,14 @@ export default function Aquaticdle() {
     const [guessedList, setGuessedList] = useState<string[]>(savedState ? savedState.guessedList : []);
 
     const [timeLeft, setTimeLeft] = useState<string>("");
+    const isInitialLoad = useRef(true);
 
     //saving game state to local storage after anything happens
     useEffect(() => {
+        if (isInitialLoad.current) {
+            isInitialLoad.current = false;
+            return;
+        }
         const stateToSave = {
             date: todayStr,
             attempts,
