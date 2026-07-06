@@ -18,7 +18,6 @@ import { WHALE_DATA } from './whales.ts';
 export const SPECIES_DATA: Species [] = [
     ...BELUGA_WHALE_DATA,
     ...DOLPHIN_DATA,
-    ...DOLPHIN_DATA,
     ...DUGONG_DATA,
     ...FRESHWATER_DATA,
     ...FUR_SEAL_DATA,
