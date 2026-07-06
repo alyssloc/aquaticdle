@@ -66,7 +66,7 @@ export default function Aquaticdle() {
             guessedList,
             clues
         };
-        localStorage.setItem('pinnipeddleState', JSON.stringify(stateToSave));
+        localStorage.setItem('aquaticdleState', JSON.stringify(stateToSave));
     }, [attempts, gameStatus, guessedList, clues, todayStr]);
 
     // calculate time until next midnight (when a new species will be selected)
