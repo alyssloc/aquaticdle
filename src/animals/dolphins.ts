@@ -1,7 +1,7 @@
 import type { Species } from '../components/types.ts';
 export const DOLPHIN_DATA: Species[] = [
     {
-        id: "common-dolphine",
+        id: "common-dolphin",
         name: "Common Dolphin",
         scientificName: "Delphinus delphis",
         range: "Tropical to warm-temperate waters ranging from 40-60°N to 50°S",
@@ -601,5 +601,19 @@ export const DOLPHIN_DATA: Species[] = [
                 "I am not closely related to any living species of dolphin",
                 "I rely primarily on sonar for navigation"
             ]
+    },
+    {
+        id: "maui-dolphin",
+        name: "Māui dolphin",
+        scientificName: "Cephalorhynchus hectori maui",
+        range: "The west coast of New Zealand",
+        clues: [
+            "I am a subspecies of the Hector's dolphin ",
+            "I am a critically endangered species",
+            "I am most abundant in coastal waters with high turbidity",
+            "I am New Zeland's only endemic cetacean",
+            "I have grey, white, and black markings; a short snout; and unique, rounded dorsal fins",
+            "I am one of the smallest dolphins"
+        ]
     }
 ]

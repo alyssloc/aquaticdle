@@ -23,7 +23,7 @@ const getTodayString = () => {
 
 
 export default function Aquaticdle() {
-    const images = import.meta.glob('/src/assets/images/*.{jpg,jpeg,png,webp}', { eager: true });
+    const images = import.meta.glob('/src/assets/images/*.{jpg,jpeg,png,webp,JPG}', { eager: true });
 
     const todayStr = getTodayString();
 
@@ -149,12 +149,14 @@ export default function Aquaticdle() {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            backgroundColor: '#ffffff', 
+            backgroundColor: '#eef8fe', 
+            opacity: 0.9,
             borderRadius: '16px',
             boxShadow: '0 8px 24px rgba(0,0,0,0.1)', 
             color: '#08022e' 
         }}>
             <h1 style={{ color: '#1a1a1a' }}>Aquaticdle</h1>
+            <h3 style={{ color: '#1a1a1a' }}>Guess the marine, aquatic, or semiaquatic mammal</h3>
             <p style={{ color: '#1a1a1a' }}>Attempts: {attempts} / {MAX_ATTEMPTS}</p>
             
             <div className="clues-box" style={{ 

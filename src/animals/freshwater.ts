@@ -391,5 +391,117 @@ export const FRESHWATER_DATA: Species[] = [
                 "My fur is in a marbled grey and black pattern",
                 "I am locally known as the 'yapok'"
             ]
+    },
+    {
+        id: "vancouver-coastal-sea-wolf",
+        name: "Vancouver Coastal Sea Wolf",
+        scientificName: "Canis lupus crassodon",
+        range: "Coast of the Pacific Northwest",
+        clues: [
+                "I am endemic to the coast of the Pacific Northwest",
+                "I am a species of least concern",
+                "75 to 90% of my diet is sourced from the ocean",
+                "My coat can be varying degrees of reddish-brown, grey, beige, and white fur, though entirely white",
+                "I actively hunt seals, otters, black-tailed deer, river otters, minks, elk, and beavers",
+                "My basic social unit is a mated pair accompanied by their offspring"
+            ]
+    },
+    {
+        id: "nile-lechwe",
+        name: "Nile Lechwe",
+        scientificName: "Kobus megaceros",
+        range: "Swamps and grasslands in South Sudan and Ethiopia",
+        clues: [
+                "I am an endangered species",
+                "I feed on succulent grasses and water plants",
+                "I can wade in shallow waters and swim in deeper waters",
+                "Males have long horns",
+                "I can be found in South Sudan and Ethiopia",
+                "I gather in heards of up to 50"
+            ]
+    },
+    {
+        id: "lechwe",
+        name: "Lechwe",
+        scientificName: "Kobus leche",
+        range: "Wetlands of south-central Africa",
+        clues: [
+                "I am a near threatened species",
+                "Males have long, spiral horns",
+                "I am found in wetlands in south-central Africa",
+                "I use knee-deep water found in marshes to hide from predators",
+                "I gather in heards, which can have up to thousands of individuals",
+                "Hybrids between my species and the waterbuck have been observed"
+            ]
+    },
+    {
+        id: "moose",
+        name: "Moose",
+        scientificName: "Alces alces",
+        range: "The circumpolar boreal forests or temperate broadleaf and mixed forests of the Northern Hemisphere",
+        clues: [
+                "Males have antlers",
+                "I am a species of least concern",
+                "I am the second largest land animal in North America",
+                "I am a browsing herbivore, and I eat both terrestrial and aquatic vegetation",
+                "I prefer to live in areas with snow",
+                "My proboscis features nares that can be sealed shut when I browse aquatic vegetation"
+            ]
+    },
+    {
+        id: "marsh-deer",
+        name: "Marsh Deer",
+        scientificName: "Blastocerus dichotomus",
+        range: "Marsh and lagoon zones in the Paraná, Paraguay, Araguaia and Guapore river basins",
+        clues: [
+                "I am a vulnerable species",
+                "I live in South America",
+                "I exclusively live in marsh areas",
+                "Males have antlers",
+                "My hooves have elastic interdigital membranes which are useful for swimming and walking on marshy surfaces",
+                "I am solitary or live in small groups"
+            ]
+    },
+    {
+        id: "water-deer",
+        name: "Water Deer",
+        scientificName: "Hydropotes inermis",
+        range: "Wetlands, reed beds, and grasslands along rivers in central China and the Korean Peninsula",
+        clues: [
+                "I am a vulnerable species",
+                "I have tusks",
+                "I am solitary, and males are very territorial",
+                "I can swim several miles to reach remote river islands",
+                "I am native to Korea and China",
+                "My coat is an overall golden-brown color"
+            ]
+    },
+    {
+        id: "sitatunga",
+        name: "Sitatunga",
+        scientificName: "Tragelaphus spekii",
+        range: "Swampy and marshy habitats throughout central Africa",
+        clues: [
+                "I am also known as the 'marshbuck'",
+                "I am a species of least concern",
+                "Males have long horns",
+                "I have a rubbery, shaggy, water-repellent coat",
+                "I seldom leave my swamp habitat during the day",
+                "I am found in Africa"
+            ]
+    },
+    {
+        id: "pere-davids-deer",
+        name: "Père David's Deer",
+        scientificName: "Elaphurus davidianus",
+        range: "The subtropical river valleys of China",
+        clues: [
+                "I am exctinct in the wild",
+                "I am native to the subtropical river valleys of China",
+                "Males have branched antlers",
+                "I am predominantly a grazer, supplementing with aquatic plants in the summer",
+                "I can live up to 18 years",
+                "My coat is reddish tan in the summer and a dull gray in the winter"
+            ]
     }
 ]

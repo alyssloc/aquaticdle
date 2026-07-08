@@ -14,6 +14,9 @@ importers:
       react-dom:
         specifier: ^19.2.7
         version: 19.2.7(react@19.2.7)
+      react-github-corner:
+        specifier: ^2.5.0
+        version: 2.5.0(react@19.2.7)
     devDependencies:
       '@babel/core':
         specifier: ^7.29.7
@@ -758,6 +761,12 @@ packages:
     peerDependencies:
       react: ^19.2.7
 
+  react-github-corner@2.5.0:
+    resolution: {integrity: sha512-ofds9l6n61LJc6ML+jSE6W9ZSQvATcMR9evnHPXua1oDYj289HKODnVqFUB/g2a4ieBjDHw416iHP3MjqnU76Q==}
+    engines: {node: '>= 4.0.0'}
+    peerDependencies:
+      react: '*'
+
   react@19.2.7:
     resolution: {integrity: sha512-HNe9WslTbXmFK8o8cmwgAeJFSBvt1bPdHCVKtaaV+WlAN36mpT4hcRpwbf3fY56ar2oIXzsBpOAiIRHAdY0OlQ==}
     engines: {node: '>=0.10.0'}
@@ -1471,6 +1480,10 @@ snapshots:
     dependencies:
       react: 19.2.7
       scheduler: 0.27.0
+
+  react-github-corner@2.5.0(react@19.2.7):
+    dependencies:
+      react: 19.2.7
 
   react@19.2.7: {}
 
