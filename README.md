@@ -4,4 +4,4 @@ A "wordl-" type game to guess a marine, aquatic, or semiaquatic mammal (currentl
 
 ## Link
 
-https://alyssloc.github.io/aquaticdle/
+https://www.aquaticdle.com/
