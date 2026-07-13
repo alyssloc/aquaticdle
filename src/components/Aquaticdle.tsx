@@ -3,6 +3,7 @@ import { SPECIES_DATA } from '../animals/species.ts';
 import { MAX_ATTEMPTS } from './types.ts';
 import Search from './Search.tsx'
 import { shuffle } from './shuffle.ts'
+import GithubLogo from '../assets/GitHub_Invertocat_White.png'; 
 
 const getDailySpecies = () => {
     const today = new Date();
@@ -146,6 +147,7 @@ export default function Aquaticdle() {
             padding: '30px', 
             maxWidth: '500px', 
             margin: '40px auto', 
+            marginBottom: '100px',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
@@ -236,6 +238,7 @@ export default function Aquaticdle() {
                     
                     <div style={{ 
                         marginTop: '25px', 
+                        marginBottom: '25px',
                         padding: '15px', 
                         backgroundColor: '#f8f9fa', 
                         borderRadius: '8px', 
@@ -249,6 +252,24 @@ export default function Aquaticdle() {
                         <p style={{ margin: 0, fontSize: '28px', fontWeight: 'bold', color: '#1a1a1a', fontVariantNumeric: 'tabular-nums' }}>
                             {timeLeft}
                         </p>
+                        <a href="https://github.com/alyssloc/aquaticdle" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            style={{
+                            position: 'fixed',
+                            bottom: '5px',
+                            left: "50%",
+                            marginTop: '0px',
+                            marginBottom: '10px',
+                            transform: 'translateX(-50%)',
+                            zIndex: "-1000"
+                        }}>
+                        <img 
+                            src={GithubLogo} 
+                            alt="GitHub Repo" 
+                            style={{ width: '50px', height: '50px', display: 'block' }} 
+                        />
+                        </a>
                     </div>
                 </div>
             )}
