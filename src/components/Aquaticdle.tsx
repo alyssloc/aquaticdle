@@ -148,6 +148,7 @@ export default function Aquaticdle() {
             maxWidth: '500px', 
             margin: '40px auto', 
             marginBottom: '100px',
+            marginTop: '75px',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
