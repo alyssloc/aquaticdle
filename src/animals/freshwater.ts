@@ -503,5 +503,33 @@ export const FRESHWATER_DATA: Species[] = [
                 "I can live up to 18 years",
                 "My coat is reddish tan in the summer and a dull gray in the winter"
             ]
+    },
+    {
+        id: "fishing-cat",
+        name: "Fishing cat",
+        scientificName: "Prionailurus viverrinus",
+        range: "South and Southeast Asia",
+        clues: [
+                "I am a vulnerable species",
+                "I live mostly in the vicinity of wetlands, along rivers, streams, oxbow lakes, and in swamps and mangroves",
+                "I have deep yellowish-grey fur with black lines and spots",
+                "I am primarily nocturnal",
+                "3/4 of my diet is fish",
+                "I am about twice the size of my domestic counterpart"
+            ]
+    },
+    {
+        id: "",
+        name: "",
+        scientificName: "",
+        range: "",
+        clues: [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
     }
 ]

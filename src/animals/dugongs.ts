@@ -13,5 +13,5 @@ export const DUGONG_DATA: Species[] = [
                 "I have poor eyesight, and use smell to locate food",
                 "When moving along the seabed to feed, I walk on my pectoral fins"
             ]
-    },
+    }
 ]
