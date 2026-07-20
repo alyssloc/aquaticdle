@@ -51,11 +51,11 @@ function InfoPopup(props: InfoPopupProps) {
                     width: '40px',
                     height: '40px',
                     borderRadius: '50%',
-                    backgroundColor: '#e0f1f5',
+                    backgroundColor: '#effcff',
                     color: '#08022e',
                     border: '2px solid #08022e',
                     fontWeight: 'bold',
-                    fontSize: '20px',
+                    fontSize: '16px',
                     cursor: 'pointer',
                     zIndex: 9998,
                     display: 'flex',
@@ -71,7 +71,7 @@ function InfoPopup(props: InfoPopupProps) {
             {showPopup && (
                 <div className='info-popup' style={{ 
                     position: 'fixed',
-                    top: '40%',
+                    top: '45%',
                     left: '50%',
                     transform: 'translate(-50%, -50%)', 
                     padding: '30px', 
@@ -80,7 +80,8 @@ function InfoPopup(props: InfoPopupProps) {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    backgroundColor: '#a8f0ff', 
+                    backgroundColor: '#d9eef2', 
+                    fontSize: '20px',
                     borderRadius: '24px',
                     boxShadow: '0 8px 24px rgba(0,0,0,0.2)', 
                     color: '#08022e',
@@ -90,9 +91,10 @@ function InfoPopup(props: InfoPopupProps) {
                     <h3 style={{ color: '#1a1a1a', textAlign: 'center' }}>Guess the marine, aquatic, or semi-aquatic mammal in 6 tries</h3>
                     <div style={{ color: '#1a1a1a', lineHeight: '1.5', textAlign: 'left' }}>
                         <ul>
-                        <li> Animals in this game include seals, sea lions, sea otters, whales, dolphins, and more.</li>
-                        <li> Any valid guess will appear in the search bar as you type in the animal's name.</li>
-                        <li> Clues are related to the animal's appearance, behaviors, conservation status, range, and culture.</li>
+                        <li> Animals in this game include seals, sea lions, sea otters, whales, dolphins, and more </li>
+                        <li> Any valid guess will appear in the search bar as you type in the animal's name </li>
+                        <li> Clues are related to the animal's appearance, behaviors, conservation status, range, and culture </li>
+                        <li> Species refresh at midnight UTC </li>
                         </ul>
                     </div>
                     
