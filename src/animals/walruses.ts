@@ -3,7 +3,7 @@ export const WALRUS_DATA: Species[] = [
     {
         id: "walrus",
         name: "Walrus",
-        scientificName: "O. rosmarus",
+        scientificName: "Odobenus rosmarus",
         range: "Arctic Ocean and Subarctic Seas",
         clues: [
                 "I am a vulnerable species",

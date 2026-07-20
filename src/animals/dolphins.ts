@@ -2,7 +2,7 @@ import type { Species } from '../components/types.ts';
 export const DOLPHIN_DATA: Species[] = [
     {
         id: "common-dolphin",
-        name: "Common Dolphin",
+        name: "Common dolphin",
         scientificName: "Delphinus delphis",
         range: "Tropical to warm-temperate waters ranging from 40-60°N to 50°S",
         clues: [
@@ -16,7 +16,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "frasers-dolphin",
-        name: "Fraser's Dolphin",
+        name: "Fraser's dolphin",
         scientificName: "Lagenodelphis hosei",
         range: "Deep waters in the Pacific, Indian, and Atlantic oceans",
         clues: [
@@ -30,7 +30,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "atlantic-humpback-dolphin",
-        name: "Atlantic Humpback Dolphin",
+        name: "Atlantic humpback dolphin",
         scientificName: "Sousa teuszii",
         range: "Subtropical west coast of Africa",
         clues: [
@@ -44,7 +44,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "indo-pacific-humpback-dolphin",
-        name: "Indo-Pacific Humpback Dolphin",
+        name: "Indo-pacific humpback dolphin",
         scientificName: "Sousa chinensis",
         range: "coastal waters of the eastern Indian and western Pacific Oceans",
         clues: [
@@ -58,7 +58,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "indian-ocean-humpback-dolphin",
-        name: "Indian Ocean Humpback Dolphin",
+        name: "Indian Ocean humpback dolphin",
         scientificName: "Sousa plumbea",
         range: "Southern Africa to Western Indochina",
         clues: [
@@ -72,7 +72,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "australian-humpback-dolphin",
-        name: "Australian Humpback Dolphin",
+        name: "Australian humpback dolphin",
         scientificName: "S. sahulensis",
         range: "northern Australia and southern New Guinea",
         clues: [
@@ -100,7 +100,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "guiana-dolphin",
-        name: "Guiana Dolphin",
+        name: "Guiana dolphin",
         scientificName: "Sotalia guianensis",
         range: "coastal and estuary waters to the north and east of South America, and east of Central America",
         clues: [
@@ -114,7 +114,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "pantropical-spotted-dolphin",
-        name: "Pantropical Spotted Dolphin",
+        name: "Pantropical spotted dolphin",
         scientificName: "Stenella attenuata",
         range: "All the world's temperate and tropical oceans",
         clues: [
@@ -128,7 +128,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "clymene-dolphin",
-        name: "Clymene Dolphin",
+        name: "Clymene dolphin",
         scientificName: "Stenella clymene",
         range: "The Atlantic Ocean",
         clues: [
@@ -142,7 +142,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "striped-dolphin",
-        name: "Striped Dolphin",
+        name: "Striped dolphin",
         scientificName: "Stenella coeruleoalba",
         range: "Temperate and tropical waters of all the world's oceans",
         clues: [
@@ -156,7 +156,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "atlantic-spotted-dolphin",
-        name: "Atlantic Spotted Dolphin",
+        name: "Atlantic spotted dolphin",
         scientificName: "Stenella frontalis",
         range: "Warm temperate and tropical waters of the Atlantic Ocean",
         clues: [
@@ -170,9 +170,9 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "spinner-dolphin",
-        name: "Spinner Dolphin",
+        name: "Spinner dolphin",
         scientificName: "Stenella longirostris",
-        range: "",
+        range: "Tropical and subtropical oceans worldwide",
         clues: [
                 "I am a species of least concern",
                 "I am small with a slim build",
@@ -184,7 +184,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "indo-pacific-bottlenose-dolphin",
-        name: "Indo-Pacific Bottlenose Dolphin",
+        name: "Indo-pacific bottlenose dolphin",
         scientificName: "Tursiops aduncus",
         range: "the waters around India, northern Australia, South China, the Red Sea, and the eastern coast of Africa",
         clues: [
@@ -198,7 +198,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "tamanends-bottlenose-dolphin",
-        name: "Tamanend's Bottlenose Dolphin",
+        name: "Tamanend's bottlenose dolphin",
         scientificName: "Tursiops erebennus",
         range: "Coastal waters in the eastern United States",
         clues: [
@@ -212,7 +212,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "common-bottlenose-dolphin",
-        name: "Common Bottlenose Dolphin",
+        name: "Common bottlenose dolphin",
         scientificName: "Tursiops truncatus",
         range: "Temperate and tropical oceans throughout the world",
         clues: [
@@ -226,7 +226,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "pacific-white-sided-dolphin",
-        name: "Pacific White-Sided Dolphin",
+        name: "Pacific white-sided dolphin",
         scientificName: "Aethalodelphis obliquidens",
         range: "Cool or temperate waters of the North Pacific Ocean",
         clues: [
@@ -240,7 +240,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "dusky-dolphin",
-        name: "Dusky Dolphin",
+        name: "Dusky dolphin",
         scientificName: "Aethalodelphis obscurus",
         range: "Coastal waters of the Southern Hemisphere",
         clues: [
@@ -254,7 +254,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "peales-dolphin",
-        name: "Peale's Dolphin",
+        name: "Peale's dolphin",
         scientificName: "Cephalorhynchus australis",
         range: "The waters around Tierra del Fuego at the foot of South America",
         clues: [
@@ -268,7 +268,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "commersons-dolphin",
-        name: "Commerson's Dolphin",
+        name: "Commerson's dolphin",
         scientificName: "Cephalorhynchus commersonii",
         range: "The tip of South America and around the Kerguelen Islands in the Indian Ocean",
         clues: [
@@ -282,7 +282,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "hourglass-dolphin",
-        name: "Hourglass Dolphin",
+        name: "Hourglass dolphin",
         scientificName: "Cephalorhynchus cruciger",
         range: "Offshore Antarctic and sub-Antarctic waters",
         clues: [
@@ -296,8 +296,8 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "chilean-dolphin",
-        name: "Chilean Dolphin",
-        scientificName: "",
+        name: "Chilean dolphin",
+        scientificName: "Cephalorhynchus eutropia",
         range: "The coast of Chile",
         clues: [
                 "I am a near threatened species",
@@ -310,7 +310,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "heavisides-dolphin",
-        name: "Heaviside's Dolphin",
+        name: "Heaviside's dolphin",
         scientificName: "Cephalorhynchus heavisidii",
         range: "The Benguela ecosystem along the southwest coast of Africa",
         clues: [
@@ -324,7 +324,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "hectors-dolphin",
-        name: "Hector's Dolphin",
+        name: "Hector's dolphin",
         scientificName: "Cephalorhynchus hectori",
         range: "Coasts of New Zealand",
         clues: [
@@ -338,7 +338,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "northern-right-whale-dolphin",
-        name: "Northern Right Whale Dolphin",
+        name: "Northern right whale dolphin",
         scientificName: "Lissodelphis borealis",
         range: "Cold and temperate waters of the North Pacific Ocean",
         clues: [
@@ -352,7 +352,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "southern-right-whale-dolphin",
-        name: "Southern Right Whale Dolphin",
+        name: "Southern right whale dolphin",
         scientificName: "Lissodelphis peronii",
         range: "Cool waters of the Southern Hemisphere",
         clues: [
@@ -366,7 +366,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "pygmy-killer-whale",
-        name: "Pygmy Killer Whale",
+        name: "Pygmy killer whale",
         scientificName: "Feresa attenuata",
         range: "Tropical and subtropical waters worldwide",
         clues: [
@@ -380,7 +380,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "short-finned-pilot-whale",
-        name: "Short-Finned Pilot Whale",
+        name: "Short-finned pilot whale",
         scientificName: "Globicephala macrorhynchus",
         range: "Coastal and pelagic waters in temperate and tropical regions of the Indian, Atlantic, and Pacific Oceans",
         clues: [
@@ -394,7 +394,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "long-finned-pilot-whale",
-        name: "Long Finned Pilot Whale",
+        name: "Long-finned pilot whale",
         scientificName: "Globicephala melas",
         range: "The North Atlantic and the Southern Hemisphere",
         clues: [
@@ -408,7 +408,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "rissos-dolphin",
-        name: "Risso's Dolphin",
+        name: "Risso's dolphin",
         scientificName: "Grampus griseus",
         range: "Worldwide in cold to temperate waters",
         clues: [
@@ -422,7 +422,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "irrawaddy-dolphin",
-        name: "Irrawaddy Dolphin",
+        name: "Irrawaddy dolphin",
         scientificName: "Orcaella brevirostris",
         range: "Sea coasts and in estuaries and rivers in parts of the Bay of Bengal and Southeast Asia",
         clues: [
@@ -436,7 +436,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "australian-snubfin-dolphin",
-        name: "Australian Snubfin Dolphin",
+        name: "Australian snubfin dolphin",
         scientificName: "Orcaella heinsohni",
         range: "The northern coasts of Australia",
         clues: [
@@ -450,7 +450,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "melon-headed-whale",
-        name: "Melon-Headed Whale",
+        name: "Melon-headed whale",
         scientificName: "Peponocephala electra",
         range: "Deep tropical/subtropical oceanic waters, between 40°N and 35°S",
         clues: [
@@ -464,7 +464,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "false-killer-whale",
-        name: "False Killer Whale",
+        name: "False killer whale",
         scientificName: "Pseudorca crassidens",
         range: "Oceans worldwide but mainly tropical regions",
         clues: [
@@ -478,7 +478,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "rough-toothed-dolphin",
-        name: "Rough Toothed Dolphin",
+        name: "Rough toothed dolphin",
         scientificName: "Steno bredanensis",
         range: "Deep warm and tropical waters around the world",
         clues: [
@@ -506,7 +506,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "white-beaked-dolphin",
-        name: "White-Beaked Dolphin",
+        name: "White-beaked dolphin",
         scientificName: "Lagenorhynchus albirostris",
         range: "Cold temperate and subarctic waters of the North Atlantic Ocean",
         clues: [
@@ -520,7 +520,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "atlantic-white-sided-dolphin",
-        name: "Atlantic White-Sided Dolphin",
+        name: "Atlantic white-sided dolphin",
         scientificName: "Lagenorhynchus acutus",
         range: "cool to temperate waters of the North Atlantic Ocean",
         clues: [
@@ -534,7 +534,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "ganges-river-dolphin",
-        name: "Ganges River Dolphin",
+        name: "Ganges river dolphin",
         scientificName: "Platanista gangetica",
         range: "the Ganges-Brahmaputra-Meghna and Karnaphuli-Sangu river systems, and the Sapta Koshi and Karnali Rivers",
         clues: [
@@ -548,7 +548,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "indus-river-dolphin",
-        name: "Indus River Dolphin",
+        name: "Indus river dolphin",
         scientificName: "Platanista minor",
         range: "The Indus River system",
         clues: [
@@ -562,7 +562,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "amazon-river-dolphin",
-        name: "Amazon River Dolphin",
+        name: "Amazon river dolphin",
         scientificName: "Inia geoffrensis",
         range: "The Amazon and Orinoco river basins",
         clues: [
@@ -576,7 +576,7 @@ export const DOLPHIN_DATA: Species[] = [
     },
     {
         id: "la-plata-dolphin",
-        name: "La Plata Dolphin",
+        name: "La Plata dolphin",
         scientificName: "Pontoporia blainvillei",
         range: "Coastal Atlantic waters of southeastern South America",
         clues: [

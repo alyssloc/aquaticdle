@@ -2,7 +2,7 @@ import type { Species } from '../components/types.ts';
 export const WHALE_DATA: Species[] = [
     {
         id: "rices-whale",
-        name: "Rice's Whale",
+        name: "Rice's whale",
         scientificName: "Balaenoptera ricei",
         range: "Northern Gulf of Mexico",
         clues: [
@@ -16,7 +16,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "sei-whale",
-        name: "Sei Whale",
+        name: "Sei whale",
         scientificName: "Balaenoptera borealis",
         range: "All oceans, but rarely in polar or tropical waters",
         clues: [
@@ -30,7 +30,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "bowhead-whale",
-        name: "Bowhead Whale",
+        name: "Bowhead whale",
         scientificName: "Balaena mysticetus",
         range: "Arctic and subarctic waters",
         clues: [
@@ -44,7 +44,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "southern-right-whale",
-        name: "Southern Right Whale",
+        name: "Southern right whale",
         scientificName: "Eubalaena australis",
         range: "The Southern Hemisphere, primarily ranging between latitudes 20° and 60° South",
         clues: [
@@ -58,9 +58,9 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "northern-atlantic-right-whale",
-        name: "North Atlantic Right Whale",
+        name: "North Atlantic right whale",
         scientificName: "Eubalaena glacialis",
-        range: "",
+        range: "The western North Atlantic Ocean along the eastern seaboard of North America",
         clues: [
                 "I was a prime whaling target, or the 'right' whale to hunt",
                 "I am a critically endangered species",
@@ -72,7 +72,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "north-pacific-right-whale",
-        name: "North Pacific Right Whale",
+        name: "North pacific right whale",
         scientificName: "Eubalaena japonica",
         range: "Temperate and subarctic waters of the Pacific Ocean",
         clues: [
@@ -86,9 +86,9 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "pygmy-right-whale",
-        name: "Pygmy Right Whale",
+        name: "Pygmy right whale",
         scientificName: "Caperea marginata",
-        range: "",
+        range: "Cool to temperate and sub-Antarctic waters generally between 30°S and 50°S",
         clues: [
                 "I am a species of least concern",
                 "temperate waters of the Southern Hemisphere",
@@ -100,7 +100,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "common-minke-whale",
-        name: "Common Minke Whale",
+        name: "Common minke whale",
         scientificName: "Balaenoptera acutorostrata",
         range: "The Northern Hemisphere and Southern oceans",
         clues: [
@@ -114,7 +114,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "antarctic-minke-whale",
-        name: "Antarctic Minke Whale",
+        name: "Antarctic minke whale",
         scientificName: "Balaenoptera bonaerensis",
         range: "the Southern Hemisphere",
         clues: [
@@ -128,7 +128,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "gray-whale",
-        name: "Gray Whale",
+        name: "Gray whale",
         scientificName: "Eschrichtius robustus",
         range: "Shallow coastal waters of the North Pacific Ocean",
         clues: [
@@ -142,7 +142,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "humpback-whale",
-        name: "Humpback Whale",
+        name: "Humpback whale",
         scientificName: "Megaptera novaeangliae",
         range: "All major oceans",
         clues: [
@@ -156,7 +156,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "fin-whale",
-        name: "Fin Whale",
+        name: "Fin whale",
         scientificName: "Balaenoptera physalus",
         range: "All major oceans worldwide",
         clues: [
@@ -170,7 +170,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "blue-whale",
-        name: "Blue Whale",
+        name: "Blue whale",
         scientificName: "Balaenoptera musculus",
         range: "Every ocean except the Arctic",
         clues: [
@@ -184,7 +184,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "omuras-whale",
-        name: "Omura's Whale",
+        name: "Omura's whale",
         scientificName: "Balaenoptera omurai",
         range: "The Indo-Pacific and the Atlantic Oceans, primarily in shelf waters between 35° N and 35° S",
         clues: [
@@ -198,7 +198,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "sperm-whale",
-        name: "Sperm Whale",
+        name: "Sperm whale",
         scientificName: "Physeter macrocephalus",
         range: "All of the world's deep oceans",
         clues: [
@@ -212,7 +212,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "pygmy-sperm-whale",
-        name: "Pygmy Sperm Whale",
+        name: "Pygmy sperm whale",
         scientificName: "Kogia breviceps",
         range: "Tropical and temperate waters of the Atlantic, Pacific, and Indian Oceans,and occasionally among colder waters",
         clues: [
@@ -226,7 +226,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "dwarf-sperm-whale",
-        name: "Dwarf Sperm Whale",
+        name: "Dwarf sperm whale",
         scientificName: "Kogia sima",
         range: "Tropical and temperate oceans of the world",
         clues: [
@@ -240,7 +240,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "arnouxs-beaked-whale",
-        name: "Arnoux's Beaked Whale",
+        name: "Arnoux's beaked whale",
         scientificName: "Berardius arnuxii",
         range: "The Southern Hemisphere",
         clues: [
@@ -254,7 +254,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "bairds-beaked-whale",
-        name: "Baird's Beaked Whale",
+        name: "Baird's beaked whale",
         scientificName: "Berardius bairdii",
         range: "The North Pacific Ocean",
         clues: [
@@ -268,7 +268,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "satos-beaked-whale",
-        name: "Sato's Beaked Whale",
+        name: "Sato's beaked whale",
         scientificName: "Berardius minimus",
         range: "The southern Sea of Okhotsk north of Hokkaido, the Commander Islands, and the southeastern Bering Sea",
         clues: [
@@ -282,7 +282,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "shepherds-beaked-whale",
-        name: "Shepherd's Beaked Whale",
+        name: "Shepherd's beaked whale",
         scientificName: "Tasmacetus shepherdi",
         range: "The Southern Hemisphere",
         clues: [
@@ -296,7 +296,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "cuviers-beaked-whale",
-        name: "Cuvier's Beaked Whale",
+        name: "Cuvier's beaked whale",
         scientificName: "Ziphius cavirostris",
         range: "Primarily  temperate, tropical, and subtropical areas of the Atlantic, Pacific, and Indian Oceans",
         clues: [
@@ -310,7 +310,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "northern-bottlenose-whale",
-        name: "Northern Bottlenose Whale",
+        name: "Northern bottlenose whale",
         scientificName: "Hyperoodon ampullatus",
         range: "The North Atlantic Ocean",
         clues: [
@@ -324,7 +324,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "southern-bottlenose-whale",
-        name: "Southern Bottlenose Whale",
+        name: "Southern bottlenose whale",
         scientificName: "Hyperoodon planifrons",
         range: "The Southern Ocean",
         clues: [
@@ -338,7 +338,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "tropical-bottlenose-whale",
-        name: "Tropical Bottlenose Whale",
+        name: "Tropical bottlenose whale",
         scientificName: "Indopacetus pacificus",
         range: "w=Warm, deep, pelagic waters of the tropical and subtropical Indian and Pacific Oceans",
         clues: [
@@ -352,7 +352,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "sowerbys-beaked-whale",
-        name: "Sowerby's Beaked Whale",
+        name: "Sowerby's beaked whale",
         scientificName: "Mesoplodon bidens",
         range: "Deep, cold temperate, and subarctic waters of the North Atlantic Ocean",
         clues: [
@@ -366,7 +366,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "andrews-beaked-whale",
-        name: "Andrews' Beaked Whale",
+        name: "Andrews' beaked whale",
         scientificName: "Mesoplodon bowdoini",
         range: "The Southern Hemisphere",
         clues: [
@@ -380,7 +380,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "hubbs-beaked-whale",
-        name: "Hubbs' Beaked Whale",
+        name: "Hubbs' beaked whale",
         scientificName: "Mesoplodon carlhubbsi",
         range: "The coast of Japan and the Pacific coast of North America",
         clues: [
@@ -394,7 +394,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "blainvilles-beaked-whale",
-        name: "Blainville's Beaked Whale",
+        name: "Blainville's beaked whale",
         scientificName: "Mesoplodon densirostris",
         range: "Tropical and warm waters in all oceans",
         clues: [
@@ -408,7 +408,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "ramaris-beaked-whale",
-        name: "Ramari's Beaked Whale",
+        name: "Ramari's beaked whale",
         scientificName: "Mesoplodon eueu",
         range: "The Southern Hemisphere",
         clues: [
@@ -422,7 +422,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "gervaiss-beaked-whale",
-        name: "Gervais's Beaked Whale",
+        name: "Gervais's beaked whale",
         scientificName: "Mesoplodon europaeus",
         range: "Tropical to warm-temperate deep waters of the North Atlantic Ocean",
         clues: [
@@ -436,7 +436,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "ginkgo-toothed-beaked-whale",
-        name: "Ginkgo-Toothed Beaked Whale",
+        name: "Ginkgo-toothed beaked whale",
         scientificName: "Mesoplodon ginkgodens",
         range: "Tropical and temperate waters in the Indian and Pacific Ocean",
         clues: [
@@ -450,7 +450,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "grays-beaked-whale",
-        name: "Gray's Beaked Whale",
+        name: "Gray's beaked whale",
         scientificName: "Mesoplodon grayi",
         range: "Cool-temperate waters in the Southern Hemisphere",
         clues: [
@@ -464,7 +464,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "hectors-beaked-whale",
-        name: "Hector's Beaked Whale",
+        name: "Hector's beaked whale",
         scientificName: "Mesoplodon hectori",
         range: "Cool temperature waters of the Southern Hemisphere",
         clues: [
@@ -478,7 +478,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "strap-toothed-beaked-whale",
-        name: "Strap-Toothed Beaked Whale",
+        name: "Strap-toothed beaked whale",
         scientificName: "Mesoplodon layardii",
         range: "The Southern Ocean",
         clues: [
@@ -492,7 +492,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "trues-beaked-whale",
-        name: "True's Beaked Whale",
+        name: "True's beaked whale",
         scientificName: "Mesoplodon mirus",
         range: "The Atlantic and Indian Oceans",
         clues: [
@@ -506,7 +506,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "pygmy-beaked-whale",
-        name: "Pygmy Beaked Whale ",
+        name: "Pygmy beaked whale ",
         scientificName: "Mesoplodon peruvianus",
         range: "Eastern tropical Pacific between Baja California and Peru",
         clues: [
@@ -520,7 +520,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "perrins-beaked-whale",
-        name: "Perrin's Beaked Whale",
+        name: "Perrin's beaked whale",
         scientificName: "Mesoplodon perrini",
         range: "North Pacific waters off the coast of central and southern California",
         clues: [
@@ -534,7 +534,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "stejnegers-beaked-whale",
-        name: "Stejneger's Beaked Whale",
+        name: "Stejneger's beaked whale",
         scientificName: "Mesoplodon stejnegeri",
         range: "The North Pacific Ocean",
         clues: [
@@ -548,7 +548,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "spade-toothed-whale",
-        name: "Spade-Toothed Whale",
+        name: "Spade-toothed whale",
         scientificName: "Mesoplodon traversii",
         range: "The Southern Hemisphere, possibly only the South Pacific",
         clues: [
@@ -562,7 +562,7 @@ export const WHALE_DATA: Species[] = [
     },
     {
         id: "deraniyagalas-beaked-whale",
-        name: "Deraniyagala's Beaked Whale",
+        name: "Deraniyagala's beaked whale",
         scientificName: "Mesoplodon hotaula",
         range: "The Indian and South Pacific Oceans",
         clues: [

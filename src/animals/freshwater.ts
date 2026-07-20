@@ -2,7 +2,7 @@ import type { Species } from '../components/types.ts';
 export const FRESHWATER_DATA: Species[] = [
     {
         id: "indian-rhinoceros",
-        name: "Indian Rhinoceros",
+        name: "Indian rhinoceros",
         scientificName: "Rhinoceros unicornis",
         range: "The Indo-Gangetic Plain",
         clues: [
@@ -30,7 +30,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "pygmy-hippopotamus",
-        name: "Pygmy Hippopotamus",
+        name: "Pygmy hippopotamus",
         scientificName: "Choeropsis liberiensis",
         range: "The forests and swamps of West Africa",
         clues: [
@@ -44,9 +44,9 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "bush-dog",
-        name: "Bush Dog",
+        name: "Bush dog",
         scientificName: "Speothos venaticus",
-        range: " from Costa Rica[13] and through much of South America east of the Andes, as far south as southern Brazil",
+        range: " from Costa Rica and through much of South America east of the Andes, as far south as southern Brazil",
         clues: [
                 "I am a near threatened species",
                 "I am semiquatic, and have webbed feet",
@@ -58,7 +58,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "european-mink",
-        name: "European Mink",
+        name: "European mink",
         scientificName: "Mustela lutreola",
         range: "Eastern Europe, with an isolated population northern Spain and western France",
         clues: [
@@ -72,7 +72,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "american-mink",
-        name: "American Mink",
+        name: "American mink",
         scientificName: "Neogale vison",
         range: "Most of North America,  through Canada and further into the United States",
         clues: [
@@ -86,7 +86,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "otter-civet",
-        name: "Otter Civet",
+        name: "Otter civet",
         scientificName: "Cynogale bennettii",
         range: "Sumatra, Borneo and peninsular Thailand",
         clues: [
@@ -100,7 +100,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "aquatic-genet",
-        name: "Aquatic Genet",
+        name: "Aquatic genet",
         scientificName: "Genetta piscivora",
         range: "Closed evergreen lowland and submontane forests in the Congo Basin",
         clues: [
@@ -114,7 +114,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "marsh-mongoose",
-        name: "Marsh Mongoose",
+        name: "Marsh mongoose",
         scientificName: "Atilax paludinosus",
         range: "Freshwater wetlands in sub-saharan Africa",
         clues: [
@@ -156,7 +156,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "north-american-beaver",
-        name: "North American Beaver",
+        name: "North American beaver",
         scientificName: "Castor canadensis",
         range: "North America, from Alaska to Northern Mexico",
         clues: [
@@ -170,7 +170,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "eurasian-beaver",
-        name: "Eurasian Beaver",
+        name: "Eurasian beaver",
         scientificName: "Castor fiber",
         range: "Almost all countries in Continental Europe",
         clues: [
@@ -184,7 +184,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "muskrat",
-        name: "muskrat",
+        name: "Muskrat",
         scientificName: "Ondatra zibethicus",
         range: "Most of Canada, the United States, a small part of Northern Mexico, and northwestern Europe",
         clues: [
@@ -198,7 +198,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "round-tailed-muskrat",
-        name: "Round-Tailed Muskrat",
+        name: "Round-tailed muskrat",
         scientificName: "Neofiber alleni",
         range: "Swamps in the Southeastern United States",
         clues: [
@@ -212,7 +212,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "european-water-vole",
-        name: "European Water Vole",
+        name: "European water vole",
         scientificName: "Arvicola amphibius",
         range: "Most of Europe, Russia, West Asia and Kazakhstan",
         clues: [
@@ -226,8 +226,8 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "north-american-water-vole",
-        name: "North American Water Vole",
-        scientificName: "",
+        name: "North American water vole",
+        scientificName: "Microtus richardsoni",
         range: "Two bands in the Western United States and Canada",
         clues: [
                 "I am a species of least concern",
@@ -240,7 +240,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "southwestern-water-vole",
-        name: "Southwestern Water Vole",
+        name: "Southwestern water vole",
         scientificName: "Arvicola sapidus",
         range: "Most of France and southwestwards through Spain and Portugal",
         clues: [
@@ -268,7 +268,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "giant-otter-shrew",
-        name: "Giant Otter Shrew",
+        name: "Giant otter shrew",
         scientificName: "Potamogale velox",
         range: "The main rainforest block of central Africa from Nigeria to Zambia",
         clues: [
@@ -282,7 +282,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "nimbia-otter-shrew",
-        name: "Nimba Otter Shrew",
+        name: "Nimba otter shrew",
         scientificName: "Micropotamogale lamottei",
         range: "The Mount Nimba area",
         clues: [
@@ -296,7 +296,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "ruwenzori-otter-shrew",
-        name: "Ruwenzori Otter Shrew",
+        name: "Ruwenzori otter shrew",
         scientificName: "Micropotamogale ruwenzorii",
         range: "The Democratic Republic of the Congo, Rwanda, and Uganda",
         clues: [
@@ -310,7 +310,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "web-footed-tenrec",
-        name: "Web-Footed Tenrec",
+        name: "Web-footed tenrec",
         scientificName: "Microgale mergulus",
         range: "Eastern Madagascar",
         clues: [
@@ -324,7 +324,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "star-nosed-mole",
-        name: "Star-Nosed Mole",
+        name: "Star-nosed mole",
         scientificName: "Condylura cristata",
         range: "The northeastern United States and eastern Canada",
         clues: [
@@ -338,7 +338,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "russian-desman",
-        name: "Russian Desman",
+        name: "Russian desman",
         scientificName: "Desmana moschata",
         range: "The Volga, Don and Ural River basins in Russia",
         clues: [
@@ -352,7 +352,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "pyrenean-desman",
-        name: "Pyrenean Desman",
+        name: "Pyrenean desman",
         scientificName: "Galemys pyrenaicus",
         range: "The Pyrenees mountains and mountainous areas of the northwestern Iberian Peninsula",
         clues: [
@@ -366,7 +366,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "big-lutrine-opossum",
-        name: "Big Lutrine Opossum",
+        name: "Big lutrine opossum",
         scientificName: "Lutreolina crassicaudata",
         range: "Grasslands of South America",
         clues: [
@@ -380,7 +380,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "water-opossum",
-        name: "Water Opossum",
+        name: "Water opossum",
         scientificName: "Chironectes minimus",
         range: "Mexico through Central and South America to Argentina",
         clues: [
@@ -394,7 +394,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "vancouver-coastal-sea-wolf",
-        name: "Vancouver Coastal Sea Wolf",
+        name: "Vancouver coastal sea wolf",
         scientificName: "Canis lupus crassodon",
         range: "Coast of the Pacific Northwest",
         clues: [
@@ -408,7 +408,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "nile-lechwe",
-        name: "Nile Lechwe",
+        name: "Nile lechwe",
         scientificName: "Kobus megaceros",
         range: "Swamps and grasslands in South Sudan and Ethiopia",
         clues: [
@@ -450,7 +450,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "marsh-deer",
-        name: "Marsh Deer",
+        name: "Marsh deer",
         scientificName: "Blastocerus dichotomus",
         range: "Marsh and lagoon zones in the Paraná, Paraguay, Araguaia and Guapore river basins",
         clues: [
@@ -464,7 +464,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "water-deer",
-        name: "Water Deer",
+        name: "Water deer",
         scientificName: "Hydropotes inermis",
         range: "Wetlands, reed beds, and grasslands along rivers in central China and the Korean Peninsula",
         clues: [
@@ -492,7 +492,7 @@ export const FRESHWATER_DATA: Species[] = [
     },
     {
         id: "pere-davids-deer",
-        name: "Père David's Deer",
+        name: "Père David's deer",
         scientificName: "Elaphurus davidianus",
         range: "The subtropical river valleys of China",
         clues: [
@@ -519,17 +519,31 @@ export const FRESHWATER_DATA: Species[] = [
             ]
     },
     {
-        id: "",
-        name: "",
-        scientificName: "",
-        range: "",
+        id: "wild-water-buffalo",
+        name: "Wild water buffalo",
+        scientificName: "Bubalus arnee",
+        range: "The Indian subcontinent and Southeast Asia",
         clues: [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "I am an endangered species",
+                "I have ash-gray to black skin",
+                "I weigh 1,300 to 2,600 pounds",
+                "I inhabit wet grasslands, swamps, flood plains and densely vegetated river valleys",
+                "I have horns",
+                "I am found on the Indian subcontinent and in Southeast Asia"
+            ]
+    },
+    {
+        id: "water-buffalo",
+        name: "Water buffalo",
+        scientificName: "Bubalus arnee",
+        range: "The Indian subcontinent, Southeast Asia, Italy, the Balkans, Australia, the Americas, and parts of Africa",
+        clues: [
+                "I am a domesticated animal",
+                "I have two recognized extant types",
+                "I have horns",
+                "I am an ideal animal for working in paddy fields",
+                "I have black skin",
+                "My hide, meat, and milk are popular products"
             ]
     }
 ]

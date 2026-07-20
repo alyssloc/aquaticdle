@@ -2,8 +2,8 @@ import type { Species } from '../components/types.ts';
 export const FUR_SEAL_DATA: Species[] = [
     {
         id: "antarctic-fur-seal",
-        name: "Antarctic Fur Seal",
-        scientificName: "A. gazella",
+        name: "Antarctic fur seal",
+        scientificName: "Arctocephalus gazella",
         range: "Subantarctic Islands",
         clues: [
                 "I am an endangered species",
@@ -16,8 +16,8 @@ export const FUR_SEAL_DATA: Species[] = [
     },
     {
         id: "cape-fur-seal",
-        name: "Cape Fur Seal",
-        scientificName: "A. pusillus",
+        name: "Cape fur seal",
+        scientificName: "Arctocephalus pusillus",
         range: "South African and Australian Coasts",
         clues: [
                 "I am a species of least concern",
@@ -30,8 +30,8 @@ export const FUR_SEAL_DATA: Species[] = [
     },
     {
         id: "galapagos-fur-seal",
-        name: "Galápagos Fur Seal",
-        scientificName: "A. galapagoensis",
+        name: "Galápagos fur seal",
+        scientificName: "Arctocephalus galapagoensis",
         range: "Galápagos Islands",
         clues: [
                 "I am an endangered species",
@@ -44,8 +44,8 @@ export const FUR_SEAL_DATA: Species[] = [
     },
     {
         id: "guadalupe-fur-seal",
-        name: "Guadalupe Fur Seal",
-        scientificName: "A. townsendi",
+        name: "Guadalupe fur seal",
+        scientificName: "Arctocephalus townsendi",
         range: "Islands off of the southern Pacific coast of North America",
         clues: [
                 "I am a threatened",
@@ -58,8 +58,8 @@ export const FUR_SEAL_DATA: Species[] = [
     },
     {
         id: "juan-fernandez-fur-seal",
-        name: "Juan Fernández Fur Seal",
-        scientificName: "A. philippii",
+        name: "Juan Fernández fur seal",
+        scientificName: "Arctocephalus philippii",
         range: "Islands off of the Pacific coast of South America",
         clues: [
                 "I am a species of least concern",
@@ -72,8 +72,8 @@ export const FUR_SEAL_DATA: Species[] = [
     },
     {
         id: "new-zealand-fur-seal",
-        name: "New Zealand Fur Seal",
-        scientificName: "A. forsteri",
+        name: "New Zealand fur seal",
+        scientificName: "Arctocephalus forsteri",
         range: "Southern Australian and New Zealand coasts",
         clues: [
                 "I am a species of least concern",
@@ -86,8 +86,8 @@ export const FUR_SEAL_DATA: Species[] = [
     },
     {
         id: "south-american-fur-seal",
-        name: "South American Fur Seal",
-        scientificName: "A. australis",
+        name: "South American fur seal",
+        scientificName: "Arctocephalus australis",
         range: "Southern South American coasts",
         clues: [
                 "I am a species of least concern",
@@ -100,8 +100,8 @@ export const FUR_SEAL_DATA: Species[] = [
     },
     {
         id: "subantarctic-fur-seal",
-        name: "Subantarctic Fur Seal",
-        scientificName: "A. tropicalis",
+        name: "Subantarctic fur seal",
+        scientificName: "Arctocephalus tropicalis",
         range: "Southern parts of the Indian, Pacific, and Atlantic Oceans",
         clues: [
                 "I am a species of least concern",
@@ -114,8 +114,8 @@ export const FUR_SEAL_DATA: Species[] = [
     },
     {
         id: "northern-fur-seal",
-        name: "Northern Fur Seal",
-        scientificName: "C. ursinus",
+        name: "Northern fur seal",
+        scientificName: "Callorhinus ursinus",
         range: "Northern Pacific Ocean",
         clues: [
                 "I am a vulnerable species",

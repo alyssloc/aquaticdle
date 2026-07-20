@@ -3,7 +3,7 @@ import type { Species } from '../components/types.ts';
 export const OTTER_DATA: Species[] = [
     {
         id: "eurasian-otter",
-        name: "Eurasian Otter",
+        name: "Eurasian otter",
         scientificName: "Lutra lutra",
         range: "Europe, North Africa and parts of Asia",
         clues: [
@@ -17,7 +17,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "hairy-nosed-otter",
-        name: "Hairy Nosed Otter",
+        name: "Hairy nosed otter",
         scientificName: "Lutra sumatrana",
         range: "Southeast Asia from southern Thailand, Cambodia, southern Vietnam and Peninsular Malaysia to Sumatra and Borneo",
         clues: [
@@ -31,7 +31,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "spotted-neck-otter",
-        name: "Spotted-Neck Otter",
+        name: "Spotted-neck otter",
         scientificName: "Hydrictis maculicollis",
         range: "sub-Saharan Africa",
         clues: [
@@ -45,7 +45,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "smooth-coated-otter",
-        name: "Smooth-coated Otter",
+        name: "Smooth-coated otter",
         scientificName: "Lutrogale perspicillata",
         range: "South and Southwest Asia",
         clues: [
@@ -59,7 +59,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "north-american-river-otter",
-        name: "North American River Otter",
+        name: "North American river otter",
         scientificName: "Lontra canadensis",
         range: "Most of Canada and along the coasts of the United States and its inland waterways",
         clues: [
@@ -73,7 +73,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "southern-river-otter",
-        name: "Southern River Otter",
+        name: "Southern river otter",
         scientificName: "Lontra provocax",
         range: "Patagonia",
         clues: [
@@ -87,7 +87,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "neotropical-otter",
-        name: "Neotropical Otter",
+        name: "Neotropical otter",
         scientificName: "Lontra longicaudis",
         range: "Central America, mainland South America, and Trinidad",
         clues: [
@@ -101,7 +101,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "marine-otter",
-        name: "Marine Otter",
+        name: "Marine otter",
         scientificName: "Lontra felina",
         range: "Pacific coastline of South America",
         clues: [
@@ -115,7 +115,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "giant-otter",
-        name: "Giant Otter",
+        name: "Giant otter",
         scientificName: "Pteronura brasiliensis",
         range: "north-central South America",
         clues: [
@@ -129,7 +129,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "african-clawless-otter",
-        name: "African Clawless Otter",
+        name: "African clawless otter",
         scientificName: "Aonyx capensis",
         range: "Central and Southern Africa",
         clues: [
@@ -143,7 +143,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "asian-small-clawed-otter",
-        name: "Asian Small-Clawed Otter",
+        name: "Asian small-clawed otter",
         scientificName: "Aonyx cinereus",
         range: "South and Southeast Asia",
         clues: [
@@ -157,7 +157,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "sea-otter",
-        name: "Sea Otter",
+        name: "Sea otter",
         scientificName: "Enhydra lutris",
         range: "costal waters of the North-Pacific Ocean",
         clues: [
@@ -171,7 +171,7 @@ export const OTTER_DATA: Species[] = [
     },
     {
         id: "japanese-otter",
-        name: "Japanese Otter",
+        name: "Japanese otter",
         scientificName: "Lutra nippon",
         range: "Japanese archipelago",
         clues: [

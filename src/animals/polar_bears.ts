@@ -2,7 +2,7 @@ import type { Species } from '../components/types.ts';
 export const POLAR_BEAR_DATA: Species[] = [
     {
         id: "polar-bear",
-        name: "Polar Bear",
+        name: "Polar bear",
         scientificName: "Ursus maritimus",
         range: "Northern polar region",
         clues: [
@@ -16,7 +16,7 @@ export const POLAR_BEAR_DATA: Species[] = [
     },
     {
         id: "tyrant=polar-bear",
-        name: "Tyrant Polar Bear",
+        name: "Tyrant polar bear",
         scientificName: "Ursus maritimus tyrannus",
         range: "Northern polar region",
         clues: [

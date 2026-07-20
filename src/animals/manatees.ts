@@ -2,7 +2,7 @@ import type { Species } from '../components/types.ts';
 export const MANATEE_DATA: Species[] = [
     {
         id: "amazonian-manatee",
-        name: "Amazonian Manatee",
+        name: "Amazonian manatee",
         scientificName: "Trichechus inunguis",
         range: "Freshwater river systems of the Amazon Basin",
         clues: [
@@ -16,7 +16,7 @@ export const MANATEE_DATA: Species[] = [
     },
     {
         id: "african-manatee",
-        name: "African Manatee",
+        name: "African manatee",
         scientificName: "Trichechus senegalensis",
         range: "Western Africa, from Senegal to Angola",
         clues: [
@@ -30,9 +30,9 @@ export const MANATEE_DATA: Species[] = [
     },
     {
         id: "west-indian-manatee",
-        name: "West Indian Manatee ",
+        name: "West Indian manatee ",
         scientificName: "Trichechus manatus",
-        range: "",
+        range: "The southeastern United States through the Caribbean Sea to the northern coast of South America",
         clues: [
                 "I have two subspecies",
                 "I am a vulnerable species",

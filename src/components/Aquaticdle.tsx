@@ -7,7 +7,7 @@ import GithubLogo from '../assets/GitHub_Invertocat_White.png';
 
 const getDailySpecies = () => {
     const today = new Date();
-    const dateSeed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+    const dateSeed = today.getUTCFullYear() * 10000 + (today.getUTCMonth() + 1) * 100 + today.getUTCDate();
     
     // Selecting a random species 
     const pseudoRandom = Math.abs(Math.sin(dateSeed) * 10000);
@@ -19,7 +19,7 @@ const getDailySpecies = () => {
 //get today to check if the saved data is from today
 const getTodayString = () => {
     const today = new Date();
-    return `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+    return `${today.getUTCFullYear()}-${today.getUTCMonth() + 1}-${today.getUTCDate()}`;
 };
 
 
@@ -79,8 +79,8 @@ export default function Aquaticdle() {
     useEffect(() => {
         const calculateTimeLeft = () => {
             const now = new Date();
-            const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
-            const diff = tomorrow.getTime() - now.getTime();
+            const tomorrow = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1);
+            const diff = tomorrow - now.getTime();
 
             if (diff <= 0) return "00:00:00";
 

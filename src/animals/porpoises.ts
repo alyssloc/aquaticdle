@@ -2,7 +2,7 @@ import type { Species } from '../components/types.ts';
 export const PORPOISE_DATA: Species[] = [
     {
         id: "indo-pacific-finless-porpoise",
-        name: "Indo-Pacific Finless Porpoise",
+        name: "Indo-pacific finless porpoise",
         scientificName: "Neophocaena phocaenoides",
         range: "The coastal waters of Asia, especially around Indonesia, Malaysia, India, and Bangladesh",
         clues: [
@@ -16,7 +16,7 @@ export const PORPOISE_DATA: Species[] = [
     },
     {
         id: "east-asian-finless-porpoise",
-        name: "East Asian Finless Porpoise",
+        name: "East Asian finless porpoise",
         scientificName: "Neophocaena sunameri",
         range: "The East China Sea, Yellow Sea, and the seas around Japan",
         clues: [
@@ -30,7 +30,7 @@ export const PORPOISE_DATA: Species[] = [
     },
     {
         id: "yangtze-finless-porpoise",
-        name: "Yangtze Finless Porpoise",
+        name: "Yangtze finless porpoise",
         scientificName: "Neophocaena asiaeorientalis",
         range: "The Yangtze River",
         clues: [
@@ -44,7 +44,7 @@ export const PORPOISE_DATA: Species[] = [
     },
     {
         id: "harbour-porpoise",
-        name: "Harbour Porpoise",
+        name: "Harbour porpoise",
         scientificName: "Phocoena phocoena",
         range: "Cooler coastal waters of the North Atlantic, North Pacific and the Black Sea",
         clues: [
@@ -72,7 +72,7 @@ export const PORPOISE_DATA: Species[] = [
     },
     {
         id: "spectacled-porpoise",
-        name: "Spectacled Porpoise",
+        name: "Spectacled porpoise",
         scientificName: "Phocoena dioptrica",
         range: "Cool temperate, sub-Antarctic and Antarctic waters",
         clues: [
@@ -86,7 +86,7 @@ export const PORPOISE_DATA: Species[] = [
     },
     {
         id: "burmeisters-porpoise",
-        name: "Burmeister's Porpoise",
+        name: "Burmeister's porpoise",
         scientificName: "Phocoena spinipinnis",
         range: "Coasts of South America",
         clues: [
@@ -100,7 +100,7 @@ export const PORPOISE_DATA: Species[] = [
     },
     {
         id: "dalls-porpoise",
-        name: "Dall's Porpoise",
+        name: "Dall's porpoise",
         scientificName: "Phocoenoides dalli",
         range: "North Pacific Ocean",
         clues: [

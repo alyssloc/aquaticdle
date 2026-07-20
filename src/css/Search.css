@@ -1,0 +1,21 @@
+.dropdown-list {
+    overflow-y: auto;
+    max-height: 240px; 
+}
+.dropdown-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.dropdown-list::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); 
+    border-radius: 12px;
+}
+
+.dropdown-list::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 12px;
+}
+
+.dropdown-list::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.8); 
+}

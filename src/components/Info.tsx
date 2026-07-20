@@ -90,9 +90,9 @@ function InfoPopup(props: InfoPopupProps) {
                     <h3 style={{ color: '#1a1a1a', textAlign: 'center' }}>Guess the marine, aquatic, or semi-aquatic mammal in 6 tries</h3>
                     <div style={{ color: '#1a1a1a', lineHeight: '1.5', textAlign: 'left' }}>
                         <ul>
-                        <li> Animals in this game include seals, sea lions, sea otters, whales, dolphins, and more!</li>
-                        <li> Any valid guess will appear in the search bar as you type in the animal name.</li>
-                        <li> Clues are related to the animal's appearance, behaviors, conservation status, locations, and culture.</li>
+                        <li> Animals in this game include seals, sea lions, sea otters, whales, dolphins, and more.</li>
+                        <li> Any valid guess will appear in the search bar as you type in the animal's name.</li>
+                        <li> Clues are related to the animal's appearance, behaviors, conservation status, range, and culture.</li>
                         </ul>
                     </div>
                     

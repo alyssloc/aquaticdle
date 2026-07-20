@@ -1,5 +1,6 @@
 import { useState, type ChangeEvent, useEffect, useRef } from "react"
 import { SPECIES_DATA } from "../animals/species.ts"
+import "../css/Search.css"
 
 interface SearchProps {
     onSelect: (speciesName: string) => void;
@@ -29,31 +30,35 @@ const Search = ({ onSelect, guessedList }: SearchProps) => {
     };
 
     const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-        if (!isOpen || filteredSpecies.length === 0) return;
+        //preventing invalid submissions (doesn't match one of animals in list)
+        if (e.key === "Enter") {
+            e.preventDefault();
+        }
+
+        if (!isOpen || matchingSpecies.length === 0) return;
 
         if (e.key === "ArrowDown") {
             e.preventDefault();
             setCurrIndex((prevIndex) => 
-                prevIndex < filteredSpecies.length - 1 ? prevIndex + 1 : 0
+                prevIndex < matchingSpecies.length - 1 ? prevIndex + 1 : 0
             )
         }
         if (e.key === "ArrowUp") {
             e.preventDefault();
             setCurrIndex((prevIndex) =>
-                prevIndex > 0 ? prevIndex - 1 : filteredSpecies.length - 1
+                prevIndex > 0 ? prevIndex - 1 : matchingSpecies.length - 1
             )
         } 
         if (e.key === "Enter") {
             e.preventDefault();
-            if (currIndex >= 0 && currIndex < filteredSpecies.length) {
-                const selectedName = matchingSpecies[currIndex].name;
-                setSearch(filteredSpecies[currIndex].name);
+            let selectedName = "";
+            if (currIndex >= 0 && currIndex < matchingSpecies.length && isOpen) {
+                selectedName = matchingSpecies[currIndex].name;
+                //setSearch(matchingSpecies[currIndex].name);
                 setIsOpen(false);
                 setSearch("");
+                setCurrIndex(-1);
                 onSelect(selectedName);
-            }
-            else {
-                console.log("Enter key pressed");
             }
         }
         if (e.key === "Escape") {
@@ -103,7 +108,9 @@ const Search = ({ onSelect, guessedList }: SearchProps) => {
                     outline: 'none',
                     boxSizing: 'border-box',
                     boxShadow: '0 4px 6px rgba(0,0,0,0.05)',
-                    transition: 'border-color 0.2s ease, box-shadow 0.2s ease'
+                    transition: 'border-color 0.2s ease, box-shadow 0.2s ease',
+                    overflowY: 'auto',
+                    maxHeight: '240px'
                 }}
             />
             {isOpen && matchingSpecies.length > 0 && (
@@ -120,8 +127,7 @@ const Search = ({ onSelect, guessedList }: SearchProps) => {
                     margin: '8px 0 0 0', 
                     listStyle: 'none', 
                     zIndex: 10,
-                    boxShadow: '0 8px 16px rgba(0,0,0,0.2)',
-                    overflow: 'hidden'
+                    boxShadow: '0 8px 16px rgba(0,0,0,0.2)'
                 }}>
                     {matchingSpecies.map((item, index) => (
                         <li 

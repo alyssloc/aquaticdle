@@ -2,8 +2,8 @@ import type { Species } from '../components/types.ts';
 export const SEAL_DATA: Species[] = [
     {
         id: "hooded-seal",
-        name: "Hooded Seal",
-        scientificName: "C. cristata",
+        name: "Hooded seal",
+        scientificName: "Cystophora cristata",
         range: "Central and western North Atlantic ocean",
         clues: [
                 "I am an endangered species",
@@ -16,7 +16,7 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "bearded-seal",
-        name: "Bearded Seal",
+        name: "Erignathus barbatus",
         scientificName: "E. barbatus",
         range: "Arctic Ocean",
         clues: [
@@ -30,8 +30,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "grey-seal",
-        name: "Grey Seal",
-        scientificName: "H. grypus",
+        name: "Grey seal",
+        scientificName: "Halichoerus grypus",
         range: "Shores of the North Atlantic Ocean",
         clues: [
                 "I am a species of least concern",
@@ -44,8 +44,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "ribbon-seal",
-        name: "Ribbon Seal",
-        scientificName: "H. fasciata",
+        name: "Ribbon seal",
+        scientificName: "Histriophoca fasciata",
         range: "Arctic and subarctic regions of the North Pacific Ocean",
         clues: [
                 "I am a species of least concern",
@@ -58,8 +58,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "leopard-seal",
-        name: "Leopard Seal",
-        scientificName: "H. leptonyx",
+        name: "Leopard seal",
+        scientificName: "Hydrurga leptonyx",
         range: "Antarctic Sea",
         clues: [
                 "I am a species of least concern",
@@ -72,8 +72,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "weddell-seal",
-        name: "Weddell Seal",
-        scientificName: "L. weddellii",
+        name: "Weddell seal",
+        scientificName: "Leptonychotes weddellii",
         range: "Coastal Antarctic Ocean",
         clues: [
                 "I am a species of least concern",
@@ -86,8 +86,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "crabeater-seal",
-        name: "Crabeater Seal",
-        scientificName: "L. carcinophaga",
+        name: "Crabeater seal",
+        scientificName: "Lobodon carcinophaga",
         range: "Antarctic Ocean",
         clues: [
                 "I am a species of least concern",
@@ -100,8 +100,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "northern-elephant-seal",
-        name: "Northern Elephant Seal",
-        scientificName: "M. angustirostris",
+        name: "Northern elephant seal",
+        scientificName: "Mirounga angustirostris",
         range: "Northeastern Pacific Ocean ",
         clues: [
                 "I am a species of least concern",
@@ -114,8 +114,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "southern-elephant-seal",
-        name: "Southern Elephant Seal",
-        scientificName: "M. leonina",
+        name: "Southern elephant seal",
+        scientificName: "Mirounga leonina",
         range: "Antarctic and subantarctic region",
         clues: [
                 "I am a species of least concern",
@@ -129,7 +129,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "mediterranean-monk-seal",
         name: "Mediterranean monk seal",
-        scientificName: "M. monachus",
+        scientificName: "Monachus monachus",
         range: "Scattered portions of the Mediterranean Sea",
         clues: [
                 "I am a vulnerable species",
@@ -142,8 +142,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "caribbean-monk-seal",
-        name: "Caribbean Monk Seal",
-        scientificName: "N. tropicalis",
+        name: "Caribbean monk seal",
+        scientificName: "Neomonachus tropicalis",
         range: "Caribbean Sea",
         clues: [
                 "I am extinct",
@@ -156,8 +156,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "hawiian-monk-seal",
-        name: "Hawiian Monk Seal",
-        scientificName: "N. schauinslandi",
+        name: "Hawiian monk seal",
+        scientificName: "Neomonachus schauinslandi",
         range: "Hawiian Islands",
         clues: [
                 "I am a vulnerable species",
@@ -170,8 +170,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "ross-seal",
-        name: "Ross Seal",
-        scientificName: "O. rossii",
+        name: "Ross seal",
+        scientificName: "Ommatophoca rossii",
         range: "Coastal Antarctic Ocean",
         clues: [
                 "I am a species of least concern",
@@ -184,8 +184,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "harp-seal",
-        name: "Harp Seal",
-        scientificName: "P. groenlandicus",
+        name: "Harp seal",
+        scientificName: "Pagophilus groenlandicus",
         range: "Northern Atlantic Ocean",
         clues: [
                 "I am a near threatened species",
@@ -198,8 +198,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "spotted-seal",
-        name: "Spotted Seal",
-        scientificName: "P. largha",
+        name: "Spotted seal",
+        scientificName: "Phoca largha",
         range: "Northern Pacific Ocean",
         clues: [
                 "I am a species of least concern",
@@ -212,8 +212,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "harbor-seal",
-        name: "Harbor Seal",
-        scientificName: "P. vitulina",
+        name: "Harbor seal",
+        scientificName: "Phoca vitulina",
         range: "Northern Hemisphere coastlines",
         clues: [
                 "I am a species of least concern",
@@ -226,8 +226,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "baikal-seal",
-        name: "Baikal Seal",
-        scientificName: "P. sibirica",
+        name: "Baikal seal",
+        scientificName: "Pusa sibirica",
         range: "Lake Baikal",
         clues: [
                 "I am a species of least concern",
@@ -240,8 +240,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "caspian-seal",
-        name: "Caspian Seal",
-        scientificName: "P. caspica",
+        name: "Caspian seal",
+        scientificName: "Pusa caspica",
         range: "Caspain Sea",
         clues: [
                 "I am an endangered species",
@@ -254,8 +254,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "ringed-seal",
-        name: "Ringed Seal",
-        scientificName: "P. hispida",
+        name: "Ringed seal",
+        scientificName: "Pusa hispida",
         range: "Arctic Ocean",
         clues: [
                 "I am an endangered species",
@@ -269,7 +269,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "arctic-ringed-seal",
         name: "Arctic Ringed Seal",
-        scientificName: "P. h. hispida",
+        scientificName: "Pusa hispida hispida",
         range: "Not Available",
         clues: [
                 "I am a species of least concern",
@@ -282,8 +282,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "ladoga-ringed-seal",
-        name: "Ladoga Ringed Seal",
-        scientificName: "P. h. ladogensis",
+        name: "Ladoga ringed seal",
+        scientificName: "Pusa hispida ladogensis",
         range: "Lake Ladoga",
         clues: [
                 "I am a vulnerable species",
@@ -296,8 +296,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "saimaa-ringed-seal",
-        name: "Saimaa Ringed Seal",
-        scientificName: "P. saimensis",
+        name: "Saimaa ringed seal",
+        scientificName: "Pusa saimensis",
         range: "Lake Saimaa",
         clues: [
                 "I am an endangered species",
@@ -310,15 +310,15 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "ungava-seal",
-        name: "Ungava Seal",
-        scientificName: "P. v. mellonae",
-        range: "Lake Saimaa",
+        name: "Ungava seal",
+        scientificName: "Phocinae vitulina mellonae",
+        range: "Small series of freshwater lakes in the Ungava Peninsula",
         clues: [
                 "I am an endangered species",
                 "Little is known about me",
                 "I may eat Lake Trout and Lake Whitefish",
                 "I am a subspecies of the Harbor Seal",
-                "I am one of the most endangered seal species, with a population of > 100",
+                "I am one of the most endangered seal species, with a population of < 100",
                 "I am endemic to a small series of freshwater lakes",
         ]
     }

@@ -17,9 +17,9 @@
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
-  background-image: url('./assets/images/bg_final.png');
+  background-image: url('../assets/images/bg_final.png');
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(41, 102, 201, 0.3), rgba(123, 230, 254, 0.3)), url('./assets/images/bg_final.png');
+  background-image: linear-gradient(to right, rgba(41, 102, 201, 0.3), rgba(123, 230, 254, 0.3)), url('../assets/images/bg_final.png');
   background-position: center;
   image-rendering: pixelated;
   font-synthesis: none;
@@ -109,3 +109,5 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+

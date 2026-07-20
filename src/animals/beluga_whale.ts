@@ -2,7 +2,7 @@ import type { Species } from '../components/types.ts';
 export const BELUGA_WHALE_DATA: Species[] = [
     {
         id: "beluga-whale",
-        name: "Beluga Whale",
+        name: "Beluga whale",
         scientificName: "Delphinapterus leucas",
         range: "Arctic and sub-Arctic waters",
         clues: [

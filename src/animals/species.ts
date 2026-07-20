@@ -11,6 +11,7 @@ import { POLAR_BEAR_DATA } from './polar_bears.ts';
 import { PORPOISE_DATA } from './porpoises.ts';
 import { SEA_LION_DATA } from './sea_lions.ts';
 import { SEAL_DATA } from './seals.ts';
+import { TAPIR_DATA } from './tapir.ts';
 import { WALRUS_DATA } from './walruses.ts';
 import { WHALE_DATA } from './whales.ts';
 
@@ -28,6 +29,7 @@ export const SPECIES_DATA: Species [] = [
     ...PORPOISE_DATA,
     ...SEA_LION_DATA,
     ...SEAL_DATA,
+    ...TAPIR_DATA,
     ...WALRUS_DATA,
     ...WHALE_DATA
 ]

@@ -2,8 +2,8 @@ import type { Species } from '../components/types.ts';
 export const SEA_LION_DATA: Species[] = [
     {
         id: "steller-sea-lion",
-        name: "Steller Sea Lion",
-        scientificName: "E. jubatus",
+        name: "Steller sea lion",
+        scientificName: "Eumetopias jubatus",
         range: "Northern Pacific Ocean",
         clues: [
                 "I am a near threatened species",
@@ -16,8 +16,8 @@ export const SEA_LION_DATA: Species[] = [
     },
     {
         id: "australian-sea-lion",
-        name: "Australian Sea Lion",
-        scientificName: "N. cinerea",
+        name: "Australian sea lion",
+        scientificName: "Neophoca cinerea",
         range: "Southwestern Australian coast",
         clues: [
                 "I am an endangered species",
@@ -30,8 +30,8 @@ export const SEA_LION_DATA: Species[] = [
     },
     {
         id: "new-zealand-sea-lion",
-        name: "New Zealand Sea Lion",
-        scientificName: "P. hookeri",
+        name: "New Zealand sea lion",
+        scientificName: "Phocarctos hookeri",
         range: "Southern New Zealand coast and islands",
         clues: [
                 "I am an endangered species",
@@ -44,8 +44,8 @@ export const SEA_LION_DATA: Species[] = [
     },
     {
         id: "california-sea-lion",
-        name: "California Sea Lion",
-        scientificName: "Z. californianus",
+        name: "California sea lion",
+        scientificName: "Zalophus californianus",
         range: "Pacific North American coast",
         clues: [
                 "I am a species of least concern",
@@ -59,7 +59,7 @@ export const SEA_LION_DATA: Species[] = [
     {
         id: "galapagos-sea-lion",
         name: "Galápagos sea lion",
-        scientificName: "Z. wollebaeki",
+        scientificName: "Zalophus wollebaeki",
         range: "Galápagos Islands",
         clues: [
                 "I am an endangered species",
@@ -73,15 +73,30 @@ export const SEA_LION_DATA: Species[] = [
     {
         id: "japanese-sea-lion",
         name: "Japanese sea lion",
-        scientificName: "Z. japonicus",
+        scientificName: "Zalophus japonicus",
         range: "Sea of Japan",
         clues: [
                 "I am extinct",
                 "I became virtually extinct in the 1940s",
-                "I was harvested for oil, medications, leather goods, and pipe cleaners ",
+                "I was harvested for oil, medications, leather goods, and pipe cleaners",
                 "I was used in circuses",
                 "There is an effort to search for any remaining population to bring me back",
                 "I lived in East Asia"
         ]
+    },
+    {
+        id: "south-american-sea-lion",
+        name: "South American sea lion",
+        scientificName: "Otaria flavescens",
+        range: "The western and southeastern coasts of South America",
+        clues: [
+                "I am a least concern species",
+                "I am among the largest of and most sexually dimorphic of the eared seals",
+                "I eat numerous fish, such as Argentine hake and anchovies, along with cephalopods",
+                "I breed on beaches made of sand, gravel, rocks, or pebbles",
+                "Males have dark brown fur, and females have almost yellowish fur",
+                "One of my notable breeding colonies is Lobos Island"
+        ]
     }
+    
 ]
