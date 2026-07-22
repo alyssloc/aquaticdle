@@ -16,8 +16,8 @@ export const SEAL_DATA: Species[] = [
     },
     {
         id: "bearded-seal",
-        name: "Erignathus barbatus",
-        scientificName: "E. barbatus",
+        name: "Bearded seal",
+        scientificName: "Erignathus barbatus",
         range: "Arctic Ocean",
         clues: [
                 "I am a near threatened species",
