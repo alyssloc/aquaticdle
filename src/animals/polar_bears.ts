@@ -3,6 +3,7 @@ export const POLAR_BEAR_DATA: Species[] = [
     {
         id: "polar-bear",
         name: "Polar bear",
+        family: "Ursidae",
         scientificName: "Ursus maritimus",
         range: "Northern polar region",
         clues: [
@@ -15,8 +16,9 @@ export const POLAR_BEAR_DATA: Species[] = [
             ]
     },
     {
-        id: "tyrant=polar-bear",
+        id: "tyrant-polar-bear",
         name: "Tyrant polar bear",
+        family: "Ursidae",
         scientificName: "Ursus maritimus tyrannus",
         range: "Northern polar region",
         clues: [

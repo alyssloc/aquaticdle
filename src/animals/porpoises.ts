@@ -3,6 +3,7 @@ export const PORPOISE_DATA: Species[] = [
     {
         id: "indo-pacific-finless-porpoise",
         name: "Indo-pacific finless porpoise",
+        family: "Phocoenidae",
         scientificName: "Neophocaena phocaenoides",
         range: "The coastal waters of Asia, especially around Indonesia, Malaysia, India, and Bangladesh",
         clues: [
@@ -17,6 +18,7 @@ export const PORPOISE_DATA: Species[] = [
     {
         id: "east-asian-finless-porpoise",
         name: "East Asian finless porpoise",
+        family: "Phocoenidae",
         scientificName: "Neophocaena sunameri",
         range: "The East China Sea, Yellow Sea, and the seas around Japan",
         clues: [
@@ -31,6 +33,7 @@ export const PORPOISE_DATA: Species[] = [
     {
         id: "yangtze-finless-porpoise",
         name: "Yangtze finless porpoise",
+        family: "Phocoenidae",
         scientificName: "Neophocaena asiaeorientalis",
         range: "The Yangtze River",
         clues: [
@@ -45,6 +48,7 @@ export const PORPOISE_DATA: Species[] = [
     {
         id: "harbour-porpoise",
         name: "Harbour porpoise",
+        family: "Phocoenidae",
         scientificName: "Phocoena phocoena",
         range: "Cooler coastal waters of the North Atlantic, North Pacific and the Black Sea",
         clues: [
@@ -59,6 +63,7 @@ export const PORPOISE_DATA: Species[] = [
     {
         id: "vaquita",
         name: "Vaquita",
+        family: "Phocoenidae",
         scientificName: "Phocoena sinus",
         range: "A small portion of the upper Gulf of California",
         clues: [
@@ -73,6 +78,7 @@ export const PORPOISE_DATA: Species[] = [
     {
         id: "spectacled-porpoise",
         name: "Spectacled porpoise",
+        family: "Phocoenidae",
         scientificName: "Phocoena dioptrica",
         range: "Cool temperate, sub-Antarctic and Antarctic waters",
         clues: [
@@ -87,6 +93,7 @@ export const PORPOISE_DATA: Species[] = [
     {
         id: "burmeisters-porpoise",
         name: "Burmeister's porpoise",
+        family: "Phocoenidae",
         scientificName: "Phocoena spinipinnis",
         range: "Coasts of South America",
         clues: [
@@ -101,6 +108,7 @@ export const PORPOISE_DATA: Species[] = [
     {
         id: "dalls-porpoise",
         name: "Dall's porpoise",
+        family: "Phocoenidae",
         scientificName: "Phocoenoides dalli",
         range: "North Pacific Ocean",
         clues: [

@@ -4,6 +4,7 @@ export const OTTER_DATA: Species[] = [
     {
         id: "eurasian-otter",
         name: "Eurasian otter",
+        family: "Mustelidae",
         scientificName: "Lutra lutra",
         range: "Europe, North Africa and parts of Asia",
         clues: [
@@ -18,6 +19,7 @@ export const OTTER_DATA: Species[] = [
     {
         id: "hairy-nosed-otter",
         name: "Hairy nosed otter",
+        family: "Mustelidae",
         scientificName: "Lutra sumatrana",
         range: "Southeast Asia from southern Thailand, Cambodia, southern Vietnam and Peninsular Malaysia to Sumatra and Borneo",
         clues: [
@@ -32,8 +34,9 @@ export const OTTER_DATA: Species[] = [
     {
         id: "spotted-neck-otter",
         name: "Spotted-neck otter",
+        family: "Mustelidae",
         scientificName: "Hydrictis maculicollis",
-        range: "sub-Saharan Africa",
+        range: "Sub-Saharan Africa",
         clues: [
                 "I am a near threatened species",
                 "I have webbed paws",
@@ -46,6 +49,7 @@ export const OTTER_DATA: Species[] = [
     {
         id: "smooth-coated-otter",
         name: "Smooth-coated otter",
+        family: "Mustelidae",
         scientificName: "Lutrogale perspicillata",
         range: "South and Southwest Asia",
         clues: [
@@ -60,6 +64,7 @@ export const OTTER_DATA: Species[] = [
     {
         id: "north-american-river-otter",
         name: "North American river otter",
+        family: "Mustelidae",
         scientificName: "Lontra canadensis",
         range: "Most of Canada and along the coasts of the United States and its inland waterways",
         clues: [
@@ -74,6 +79,7 @@ export const OTTER_DATA: Species[] = [
     {
         id: "southern-river-otter",
         name: "Southern river otter",
+        family: "Mustelidae",
         scientificName: "Lontra provocax",
         range: "Patagonia",
         clues: [
@@ -88,6 +94,7 @@ export const OTTER_DATA: Species[] = [
     {
         id: "neotropical-otter",
         name: "Neotropical otter",
+        family: "Mustelidae",
         scientificName: "Lontra longicaudis",
         range: "Central America, mainland South America, and Trinidad",
         clues: [
@@ -102,6 +109,7 @@ export const OTTER_DATA: Species[] = [
     {
         id: "marine-otter",
         name: "Marine otter",
+        family: "Mustelidae",
         scientificName: "Lontra felina",
         range: "Pacific coastline of South America",
         clues: [
@@ -116,8 +124,9 @@ export const OTTER_DATA: Species[] = [
     {
         id: "giant-otter",
         name: "Giant otter",
+        family: "Mustelidae",
         scientificName: "Pteronura brasiliensis",
-        range: "north-central South America",
+        range: "North-central South America",
         clues: [
                 "I am an endangered species",
                 "I am especially noisy, and have complex vocalizations",
@@ -130,6 +139,7 @@ export const OTTER_DATA: Species[] = [
     {
         id: "african-clawless-otter",
         name: "African clawless otter",
+        family: "Mustelidae",
         scientificName: "Aonyx capensis",
         range: "Central and Southern Africa",
         clues: [
@@ -144,6 +154,7 @@ export const OTTER_DATA: Species[] = [
     {
         id: "asian-small-clawed-otter",
         name: "Asian small-clawed otter",
+        family: "Mustelidae",
         scientificName: "Aonyx cinereus",
         range: "South and Southeast Asia",
         clues: [
@@ -158,8 +169,9 @@ export const OTTER_DATA: Species[] = [
     {
         id: "sea-otter",
         name: "Sea otter",
+        family: "Mustelidae",
         scientificName: "Enhydra lutris",
-        range: "costal waters of the North-Pacific Ocean",
+        range: "Costal waters of the North-Pacific Ocean",
         clues: [
                 "I am an endangered species",
                 "I am a keystone species",
@@ -172,6 +184,7 @@ export const OTTER_DATA: Species[] = [
     {
         id: "japanese-otter",
         name: "Japanese otter",
+        family: "Mustelidae",
         scientificName: "Lutra nippon",
         range: "Japanese archipelago",
         clues: [

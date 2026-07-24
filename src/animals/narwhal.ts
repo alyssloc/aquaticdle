@@ -3,6 +3,7 @@ export const NARWHAL_DATA: Species[] = [
     {
         id: "narwhal",
         name: "Narwhal",
+        family: "Monodontidae",
         scientificName: "Monodon monoceros",
         range: "The Arctic waters of Canada, Greenland and Russia",
         clues: [

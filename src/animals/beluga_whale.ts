@@ -3,6 +3,7 @@ export const BELUGA_WHALE_DATA: Species[] = [
     {
         id: "beluga-whale",
         name: "Beluga whale",
+        family: "Monodontidae",
         scientificName: "Delphinapterus leucas",
         range: "Arctic and sub-Arctic waters",
         clues: [

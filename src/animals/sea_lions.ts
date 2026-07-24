@@ -3,6 +3,7 @@ export const SEA_LION_DATA: Species[] = [
     {
         id: "steller-sea-lion",
         name: "Steller sea lion",
+        family: "Otariidae",
         scientificName: "Eumetopias jubatus",
         range: "Northern Pacific Ocean",
         clues: [
@@ -17,6 +18,7 @@ export const SEA_LION_DATA: Species[] = [
     {
         id: "australian-sea-lion",
         name: "Australian sea lion",
+        family: "Otariidae",
         scientificName: "Neophoca cinerea",
         range: "Southwestern Australian coast",
         clues: [
@@ -31,6 +33,7 @@ export const SEA_LION_DATA: Species[] = [
     {
         id: "new-zealand-sea-lion",
         name: "New Zealand sea lion",
+        family: "Otariidae",
         scientificName: "Phocarctos hookeri",
         range: "Southern New Zealand coast and islands",
         clues: [
@@ -45,6 +48,7 @@ export const SEA_LION_DATA: Species[] = [
     {
         id: "california-sea-lion",
         name: "California sea lion",
+        family: "Otariidae",
         scientificName: "Zalophus californianus",
         range: "Pacific North American coast",
         clues: [
@@ -59,6 +63,7 @@ export const SEA_LION_DATA: Species[] = [
     {
         id: "galapagos-sea-lion",
         name: "Galápagos sea lion",
+        family: "Otariidae",
         scientificName: "Zalophus wollebaeki",
         range: "Galápagos Islands",
         clues: [
@@ -73,6 +78,7 @@ export const SEA_LION_DATA: Species[] = [
     {
         id: "japanese-sea-lion",
         name: "Japanese sea lion",
+        family: "Otariidae",
         scientificName: "Zalophus japonicus",
         range: "Sea of Japan",
         clues: [
@@ -87,6 +93,7 @@ export const SEA_LION_DATA: Species[] = [
     {
         id: "south-american-sea-lion",
         name: "South American sea lion",
+        family: "Otariidae",
         scientificName: "Otaria flavescens",
         range: "The western and southeastern coasts of South America",
         clues: [

@@ -3,6 +3,7 @@ export type Clues = [string, string, string, string, string, string];
 export interface Species {
     id: string,
     name: string,
+    family: string,
     scientificName: string,
     range: string,
     clues: Clues,

@@ -3,6 +3,7 @@ export const MANATEE_DATA: Species[] = [
     {
         id: "amazonian-manatee",
         name: "Amazonian manatee",
+        family: "Trichechidae",
         scientificName: "Trichechus inunguis",
         range: "Freshwater river systems of the Amazon Basin",
         clues: [
@@ -17,6 +18,7 @@ export const MANATEE_DATA: Species[] = [
     {
         id: "african-manatee",
         name: "African manatee",
+        family: "Trichechidae",
         scientificName: "Trichechus senegalensis",
         range: "Western Africa, from Senegal to Angola",
         clues: [
@@ -30,7 +32,8 @@ export const MANATEE_DATA: Species[] = [
     },
     {
         id: "west-indian-manatee",
-        name: "West Indian manatee ",
+        name: "West Indian manatee",
+        family: "Trichechidae",
         scientificName: "Trichechus manatus",
         range: "The southeastern United States through the Caribbean Sea to the northern coast of South America",
         clues: [

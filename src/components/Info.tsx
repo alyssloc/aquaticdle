@@ -57,7 +57,7 @@ function InfoPopup(props: InfoPopupProps) {
                     fontWeight: 'bold',
                     fontSize: '16px',
                     cursor: 'pointer',
-                    zIndex: 9998,
+                    zIndex: 9997,
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -69,58 +69,81 @@ function InfoPopup(props: InfoPopupProps) {
             </button>
 
             {showPopup && (
-                <div className='info-popup' style={{ 
-                    position: 'fixed',
-                    top: '45%',
-                    left: '50%',
-                    transform: 'translate(-50%, -50%)', 
-                    padding: '30px', 
-                    width: '90%', 
-                    maxWidth: '600px', 
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    backgroundColor: '#d9eef2', 
-                    fontSize: '20px',
-                    borderRadius: '24px',
-                    boxShadow: '0 8px 24px rgba(0,0,0,0.2)', 
-                    color: '#08022e',
-                    zIndex: 9999
-                }}>
-                    <h1 style={{ color: '#1a1a1a' }}>How to Play</h1>
-                    <h3 style={{ color: '#1a1a1a', textAlign: 'center' }}>Guess the marine, aquatic, or semi-aquatic mammal in 6 tries</h3>
-                    <div style={{ color: '#1a1a1a', lineHeight: '1.5', textAlign: 'left' }}>
-                        <ul>
-                        <li> Animals in this game include seals, sea lions, sea otters, whales, dolphins, and more </li>
-                        <li> Any valid guess will appear in the search bar as you type in the animal's name </li>
-                        <li> Clues are related to the animal's appearance, behaviors, conservation status, range, and culture </li>
-                        <li> Species refresh at midnight UTC </li>
-                        </ul>
-                    </div>
-                    
-                    <div className='popup-inner' style={{ 
-                        display: 'flex', 
-                        flexDirection: 'column', 
+                <>
+                    <div 
+                        onClick={handleClose}
+                        style={{
+                            position: 'fixed',
+                            top: 0,
+                            left: 0,
+                            width: '100vw',
+                            height: '100vh',
+                            backgroundColor: 'rgba(0, 0, 0, 0.25)',
+                            backdropFilter: 'blur(5px)',
+                            WebkitBackdropFilter: 'blur(5px)',
+                            zIndex: 9998
+                        }}
+                    />
+
+                    <div className='info-popup' style={{ 
+                        position: 'fixed',
+                        top: '48%',
+                        left: '50%',
+                        transform: 'translate(-50%, -50%)', 
+                        padding: '25px', 
+                        width: '90%', 
+                        maxWidth: '600px', 
+                        display: 'flex',
+                        flexDirection: 'column',
                         alignItems: 'center',
-                        width: '100%',
-                        marginTop: '16px'
+                        backgroundColor: '#d9eef2', 
+                        fontSize: '16px',
+                        borderRadius: '20px',
+                        boxShadow: '0 8px 24px rgba(0,0,0,0.2)', 
+                        color: '#08022e',
+                        zIndex: 9999
                     }}>
-                        { props.children }
-                    
-                        <button className='close-button' onClick={handleClose} style={{
-                            padding: '8px 24px',
-                            marginTop: '16px',
-                            cursor: 'pointer',
-                            borderRadius: '8px',
-                            border: '1px solid #1a1a1a',
-                            backgroundColor: '#fff',
-                            color: '#1a1a1a',
-                            fontWeight: 'bold'
+                        <h1 style={{ color: '#1a1a1a' }}>How to Play</h1>
+                        <h3 style={{ color: '#1a1a1a', textAlign: 'center' }}>Guess the marine, aquatic, or semi-aquatic mammal in 6 tries</h3>
+                        <div style={{ color: '#1a1a1a', textAlign: 'left' }}>
+                            <ul>
+                                <li> Animals in this game include seals, sea lions, sea otters, whales, dolphins, and more </li>
+                                <li> Any valid guess will appear in the search bar as you type in the animal's name </li>
+                                <li> Clues are related to the animal's appearance, behaviors, conservation status, range, and culture </li>
+                                <li> Species refresh at midnight UTC </li>
+                            </ul>
+                            <h3 style={{ color: '#1a1a1a', textAlign: 'center' }}>Guess Color Coding</h3>
+                            <ul>
+                                <li><span style={{ color: 'rgba(255, 0, 0, 1)' }}>Red</span>: incorrect. </li>
+                                <li><span style={{ color: 'rgba(255, 250, 160, 1)' }}>Yellow</span>: in the correct family. For example, if the correct species is a Northern Fur Seal and you guess a Steller Sea Lion, this guess would be yellow, as both species are a member of the family Otariidae. </li>
+                                <li><span style={{ color: 'rgba(0, 255, 0, 1)' }}>Green</span>: correct </li>
+                            </ul>
+                        </div>
+                        
+                        <div className='popup-inner' style={{ 
+                            display: 'flex', 
+                            flexDirection: 'column', 
+                            alignItems: 'center',
+                            width: '100%',
+                            marginTop: '12px'
                         }}>
-                            Close
-                        </button>
+                            { props.children }
+                        
+                            <button className='close-button' onClick={handleClose} style={{
+                                padding: '8px 24px',
+                                marginTop: '16px',
+                                cursor: 'pointer',
+                                borderRadius: '8px',
+                                border: '1px solid #1a1a1a',
+                                backgroundColor: '#fff',
+                                color: '#1a1a1a',
+                                fontWeight: 'bold'
+                            }}>
+                                Close
+                            </button>
+                        </div>
                     </div>
-                </div>
+                </>
             )}
         </>
     );

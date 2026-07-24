@@ -55,6 +55,7 @@ export default function Aquaticdle() {
     const [attempts, setAttempts] = useState<number>(savedState ? savedState.attempts : 0);
     const [gameStatus, setGameStatus] = useState<'playing' | 'won' | 'lost'>(savedState ? savedState.gameStatus : 'playing');
     const [guessedList, setGuessedList] = useState<string[]>(savedState ? savedState.guessedList : []);
+    const [inFamily, setInFamily] = useState<boolean[]>(savedState ? (savedState.inFamily || []) : []);
 
     const [timeLeft, setTimeLeft] = useState<string>("");
     const isInitialLoad = useRef(true);
@@ -70,6 +71,7 @@ export default function Aquaticdle() {
             attempts,
             gameStatus,
             guessedList,
+            inFamily,
             clues
         };
         localStorage.setItem('aquaticdleState', JSON.stringify(stateToSave));
@@ -110,26 +112,16 @@ export default function Aquaticdle() {
         return '';
     };
 
-    
-    //reset to select a diff species, return attempts to 0, and clear the guess
-    //const resetGame = () => {
-        //setSpecies(SPECIES_DATA[Math.floor(Math.random() * SPECIES_DATA.length)]);
-        //setAttempts(0);
-        //setGuess("");
-        //setGameStatus('playing');
-        //setGuessedList([]);
-    //};
-
-
     //update guess, # attempts, and guessed list, and check if guess was correct and
     //if the game is over
-    const handleGuessSubmit = (input: string) => {
+    const handleGuessSubmit = (input: string, family: string) => {
         const isCorrect = input.toLowerCase() === species.name.toLowerCase();
+        const isInFamily = family.toLowerCase() === species.family.toLowerCase();
         const updatedAttempts = attempts + 1;
 
-        //setGuess(input);
         setAttempts(updatedAttempts);
         setGuessedList((prev) => [...prev, input]);
+        setInFamily((prev) => [...prev, isInFamily]);
 
         if (isCorrect) {
             setGameStatus('won');
@@ -179,6 +171,9 @@ export default function Aquaticdle() {
                         if (index < attempts) {
                             if (gameStatus === 'won' && index === attempts - 1) {
                                 bgColor = 'rgba(0, 255, 0, 0.2)'; //green for correct guess
+                            }
+                            else if (inFamily[index]) {
+                                bgColor = 'rgba(255, 250, 160, 0.9)';
                             }
                             else {
                                 bgColor = 'rgba(255, 0, 0, 0.15)'; //red for wrong guess

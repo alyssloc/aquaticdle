@@ -3,6 +3,7 @@ export const DUGONG_DATA: Species[] = [
     {
         id: "dugong",
         name: "Dugong",
+        family: "Dugongidae",
         scientificName: "Dugong dugon",
         range: "Warm coastal waters from the western Pacific Ocean to the eastern coast of Africa",
         clues: [

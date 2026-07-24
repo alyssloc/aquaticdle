@@ -3,6 +3,7 @@ export const WALRUS_DATA: Species[] = [
     {
         id: "walrus",
         name: "Walrus",
+        family: "Odobenidae",
         scientificName: "Odobenus rosmarus",
         range: "Arctic Ocean and Subarctic Seas",
         clues: [

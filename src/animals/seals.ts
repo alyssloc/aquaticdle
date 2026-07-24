@@ -3,6 +3,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "hooded-seal",
         name: "Hooded seal",
+        family: "Phocidae",
         scientificName: "Cystophora cristata",
         range: "Central and western North Atlantic ocean",
         clues: [
@@ -17,6 +18,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "bearded-seal",
         name: "Bearded seal",
+        family: "Phocidae",
         scientificName: "Erignathus barbatus",
         range: "Arctic Ocean",
         clues: [
@@ -31,6 +33,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "grey-seal",
         name: "Grey seal",
+        family: "Phocidae",
         scientificName: "Halichoerus grypus",
         range: "Shores of the North Atlantic Ocean",
         clues: [
@@ -45,6 +48,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "ribbon-seal",
         name: "Ribbon seal",
+        family: "Phocidae",
         scientificName: "Histriophoca fasciata",
         range: "Arctic and subarctic regions of the North Pacific Ocean",
         clues: [
@@ -59,6 +63,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "leopard-seal",
         name: "Leopard seal",
+        family: "Phocidae",
         scientificName: "Hydrurga leptonyx",
         range: "Antarctic Sea",
         clues: [
@@ -73,6 +78,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "weddell-seal",
         name: "Weddell seal",
+        family: "Phocidae",
         scientificName: "Leptonychotes weddellii",
         range: "Coastal Antarctic Ocean",
         clues: [
@@ -87,6 +93,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "crabeater-seal",
         name: "Crabeater seal",
+        family: "Phocidae",
         scientificName: "Lobodon carcinophaga",
         range: "Antarctic Ocean",
         clues: [
@@ -101,6 +108,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "northern-elephant-seal",
         name: "Northern elephant seal",
+        family: "Phocidae",
         scientificName: "Mirounga angustirostris",
         range: "Northeastern Pacific Ocean ",
         clues: [
@@ -115,6 +123,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "southern-elephant-seal",
         name: "Southern elephant seal",
+        family: "Phocidae",
         scientificName: "Mirounga leonina",
         range: "Antarctic and subantarctic region",
         clues: [
@@ -129,6 +138,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "mediterranean-monk-seal",
         name: "Mediterranean monk seal",
+        family: "Phocidae",
         scientificName: "Monachus monachus",
         range: "Scattered portions of the Mediterranean Sea",
         clues: [
@@ -143,6 +153,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "caribbean-monk-seal",
         name: "Caribbean monk seal",
+        family: "Phocidae",
         scientificName: "Neomonachus tropicalis",
         range: "Caribbean Sea",
         clues: [
@@ -157,6 +168,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "hawiian-monk-seal",
         name: "Hawiian monk seal",
+        family: "Phocidae",
         scientificName: "Neomonachus schauinslandi",
         range: "Hawiian Islands",
         clues: [
@@ -171,6 +183,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "ross-seal",
         name: "Ross seal",
+        family: "Phocidae",
         scientificName: "Ommatophoca rossii",
         range: "Coastal Antarctic Ocean",
         clues: [
@@ -185,6 +198,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "harp-seal",
         name: "Harp seal",
+        family: "Phocidae",
         scientificName: "Pagophilus groenlandicus",
         range: "Northern Atlantic Ocean",
         clues: [
@@ -199,6 +213,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "spotted-seal",
         name: "Spotted seal",
+        family: "Phocidae",
         scientificName: "Phoca largha",
         range: "Northern Pacific Ocean",
         clues: [
@@ -213,6 +228,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "harbor-seal",
         name: "Harbor seal",
+        family: "Phocidae",
         scientificName: "Phoca vitulina",
         range: "Northern Hemisphere coastlines",
         clues: [
@@ -227,6 +243,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "baikal-seal",
         name: "Baikal seal",
+        family: "Phocidae",
         scientificName: "Pusa sibirica",
         range: "Lake Baikal",
         clues: [
@@ -241,6 +258,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "caspian-seal",
         name: "Caspian seal",
+        family: "Phocidae",
         scientificName: "Pusa caspica",
         range: "Caspain Sea",
         clues: [
@@ -255,6 +273,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "ringed-seal",
         name: "Ringed seal",
+        family: "Phocidae",
         scientificName: "Pusa hispida",
         range: "Arctic Ocean",
         clues: [
@@ -269,6 +288,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "arctic-ringed-seal",
         name: "Arctic Ringed Seal",
+        family: "Phocidae",
         scientificName: "Pusa hispida hispida",
         range: "Not Available",
         clues: [
@@ -283,6 +303,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "ladoga-ringed-seal",
         name: "Ladoga ringed seal",
+        family: "Phocidae",
         scientificName: "Pusa hispida ladogensis",
         range: "Lake Ladoga",
         clues: [
@@ -297,6 +318,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "saimaa-ringed-seal",
         name: "Saimaa ringed seal",
+        family: "Phocidae",
         scientificName: "Pusa saimensis",
         range: "Lake Saimaa",
         clues: [
@@ -311,6 +333,7 @@ export const SEAL_DATA: Species[] = [
     {
         id: "ungava-seal",
         name: "Ungava seal",
+        family: "Phocidae",
         scientificName: "Phocinae vitulina mellonae",
         range: "Small series of freshwater lakes in the Ungava Peninsula",
         clues: [

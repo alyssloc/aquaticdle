@@ -3,7 +3,7 @@ import { SPECIES_DATA } from "../animals/species.ts"
 import "../css/Search.css"
 
 interface SearchProps {
-    onSelect: (speciesName: string) => void;
+    onSelect: (speciesName: string, speciesFamily: string) => void;
     guessedList: string[];
 }
 
@@ -52,13 +52,15 @@ const Search = ({ onSelect, guessedList }: SearchProps) => {
         if (e.key === "Enter") {
             e.preventDefault();
             let selectedName = "";
+            let selectedFamily = "";
             if (currIndex >= 0 && currIndex < matchingSpecies.length && isOpen) {
                 selectedName = matchingSpecies[currIndex].name;
+                selectedFamily = matchingSpecies[currIndex].family;
                 //setSearch(matchingSpecies[currIndex].name);
                 setIsOpen(false);
                 setSearch("");
                 setCurrIndex(-1);
-                onSelect(selectedName);
+                onSelect(selectedName, selectedFamily);
             }
         }
         if (e.key === "Escape") {
@@ -135,7 +137,7 @@ const Search = ({ onSelect, guessedList }: SearchProps) => {
                             onClick={() => {
                                 setSearch("");
                                 setIsOpen(false);
-                                onSelect(item.name);
+                                onSelect(item.name, item.family);
                             }}
                             style={{ 
                                 backgroundColor: currIndex === index ? "rgba(255,255,255,0.3)" : "transparent",

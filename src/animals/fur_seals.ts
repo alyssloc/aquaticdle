@@ -3,6 +3,7 @@ export const FUR_SEAL_DATA: Species[] = [
     {
         id: "antarctic-fur-seal",
         name: "Antarctic fur seal",
+        family: "Otariidae",
         scientificName: "Arctocephalus gazella",
         range: "Subantarctic Islands",
         clues: [
@@ -17,6 +18,7 @@ export const FUR_SEAL_DATA: Species[] = [
     {
         id: "cape-fur-seal",
         name: "Cape fur seal",
+        family: "Otariidae",
         scientificName: "Arctocephalus pusillus",
         range: "South African and Australian Coasts",
         clues: [
@@ -31,6 +33,7 @@ export const FUR_SEAL_DATA: Species[] = [
     {
         id: "galapagos-fur-seal",
         name: "Galápagos fur seal",
+        family: "Otariidae",
         scientificName: "Arctocephalus galapagoensis",
         range: "Galápagos Islands",
         clues: [
@@ -45,6 +48,7 @@ export const FUR_SEAL_DATA: Species[] = [
     {
         id: "guadalupe-fur-seal",
         name: "Guadalupe fur seal",
+        family: "Otariidae",
         scientificName: "Arctocephalus townsendi",
         range: "Islands off of the southern Pacific coast of North America",
         clues: [
@@ -59,6 +63,7 @@ export const FUR_SEAL_DATA: Species[] = [
     {
         id: "juan-fernandez-fur-seal",
         name: "Juan Fernández fur seal",
+        family: "Otariidae",
         scientificName: "Arctocephalus philippii",
         range: "Islands off of the Pacific coast of South America",
         clues: [
@@ -73,6 +78,7 @@ export const FUR_SEAL_DATA: Species[] = [
     {
         id: "new-zealand-fur-seal",
         name: "New Zealand fur seal",
+        family: "Otariidae",
         scientificName: "Arctocephalus forsteri",
         range: "Southern Australian and New Zealand coasts",
         clues: [
@@ -87,6 +93,7 @@ export const FUR_SEAL_DATA: Species[] = [
     {
         id: "south-american-fur-seal",
         name: "South American fur seal",
+        family: "Otariidae",
         scientificName: "Arctocephalus australis",
         range: "Southern South American coasts",
         clues: [
@@ -101,6 +108,7 @@ export const FUR_SEAL_DATA: Species[] = [
     {
         id: "subantarctic-fur-seal",
         name: "Subantarctic fur seal",
+        family: "Otariidae",
         scientificName: "Arctocephalus tropicalis",
         range: "Southern parts of the Indian, Pacific, and Atlantic Oceans",
         clues: [
@@ -115,6 +123,7 @@ export const FUR_SEAL_DATA: Species[] = [
     {
         id: "northern-fur-seal",
         name: "Northern fur seal",
+        family: "Otariidae",
         scientificName: "Callorhinus ursinus",
         range: "Northern Pacific Ocean",
         clues: [

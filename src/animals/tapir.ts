@@ -3,8 +3,9 @@ export const TAPIR_DATA: Species[] = [
     {
         id: "bairds-tapir",
         name: "Baird's tapir",
+        family: "Tapiridae",
         scientificName: "Tapirus bairdii",
-        range: " Mexico, Central America, and northwestern South America",
+        range: "Mexico, Central America, and northwestern South America",
         clues: [
                 "I am an endangered species",
                 "I have bristly dark brown or grayish brown hair, with a cream-colored marking on my face",
@@ -17,6 +18,7 @@ export const TAPIR_DATA: Species[] = [
     {
         id: "south-american-tapir",
         name: "South American tapir",
+        family: "Tapiridae",
         scientificName: "Tapirus terrestris",
         range: "The Amazon rainforest and River Basin in South America, east of the Andes",
         clues: [
@@ -31,6 +33,7 @@ export const TAPIR_DATA: Species[] = [
     {
         id: "mountain-tapir",
         name: "Mountain tapir",
+        family: "Tapiridae",
         scientificName: "Tapirus pinchaque",
         range: "Certain portions of the Andean Mountain Range in northwestern South America",
         clues: [
@@ -45,6 +48,7 @@ export const TAPIR_DATA: Species[] = [
     {
         id: "malayan-tapir",
         name: "Malayan tapir",
+        family: "Tapiridae",
         scientificName: "Tapirus indicus",
         range: "Southeast Asia from the Malay Peninsula to Sumatra",
         clues: [
