@@ -55,13 +55,13 @@ function InfoPopup(props: InfoPopupProps) {
                     color: '#08022e',
                     border: '2px solid #08022e',
                     fontWeight: 'bold',
-                    fontSize: '16px',
+                    fontSize: '14px',
                     cursor: 'pointer',
                     zIndex: 9997,
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+                    boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
                 }}
                 aria-label="How to play"
             >
@@ -97,14 +97,14 @@ function InfoPopup(props: InfoPopupProps) {
                         flexDirection: 'column',
                         alignItems: 'center',
                         backgroundColor: '#d9eef2', 
-                        fontSize: '16px',
-                        borderRadius: '20px',
-                        boxShadow: '0 8px 24px rgba(0,0,0,0.2)', 
+                        fontSize: '15px',
+                        borderRadius: '18px',
+                        boxShadow: '0 8px 20px rgba(0,0,0,0.2)', 
                         color: '#08022e',
                         zIndex: 9999
                     }}>
                         <h1 style={{ color: '#1a1a1a' }}>How to Play</h1>
-                        <h3 style={{ color: '#1a1a1a', textAlign: 'center' }}>Guess the marine, aquatic, or semi-aquatic mammal in 6 tries</h3>
+                        <h4 style={{ color: '#1a1a1a', textAlign: 'center' }}>Guess the marine, aquatic, or semi-aquatic mammal in 6 tries</h4>
                         <div style={{ color: '#1a1a1a', textAlign: 'left' }}>
                             <ul>
                                 <li> Animals in this game include seals, sea lions, sea otters, whales, dolphins, and more </li>
@@ -112,10 +112,10 @@ function InfoPopup(props: InfoPopupProps) {
                                 <li> Clues are related to the animal's appearance, behaviors, conservation status, range, and culture </li>
                                 <li> Species refresh at midnight UTC </li>
                             </ul>
-                            <h3 style={{ color: '#1a1a1a', textAlign: 'center' }}>Guess Color Coding</h3>
+                            <h4 style={{ color: '#1a1a1a', textAlign: 'center' }}>Guess Color Coding</h4>
                             <ul>
                                 <li><span style={{ color: 'rgba(255, 0, 0, 1)' }}>Red</span>: incorrect. </li>
-                                <li><span style={{ color: 'rgba(255, 250, 160, 1)' }}>Yellow</span>: in the correct family. For example, if the correct species is a Northern Fur Seal and you guess a Steller Sea Lion, this guess would be yellow, as both species are a member of the family Otariidae. </li>
+                                <li><span style={{ color: 'rgb(249, 242, 112)' }}>Yellow</span>: in the correct family. For example, if the correct species is a Northern Fur Seal and you guess a Steller Sea Lion, this guess would be yellow, as both species are a member of the family Otariidae. </li>
                                 <li><span style={{ color: 'rgba(0, 255, 0, 1)' }}>Green</span>: correct </li>
                             </ul>
                         </div>
