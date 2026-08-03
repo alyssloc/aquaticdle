@@ -52,6 +52,7 @@ export default function Aquaticdle({ archiveDate }: { archiveDate?: string }) {
     const [gameStatus, setGameStatus] = useState<'playing' | 'won' | 'lost'>(savedState ? savedState.gameStatus : 'playing');
     const [guessedList, setGuessedList] = useState<string[]>(savedState ? savedState.guessedList : []);
     const [inFamily, setInFamily] = useState<boolean[]>(savedState ? (savedState.inFamily || []) : []);
+    const [copied, setCopied] = useState<boolean>(false);
 
     const [timeLeft, setTimeLeft] = useState<string>("");
     const isInitialLoad = useRef(true);
@@ -124,6 +125,43 @@ export default function Aquaticdle({ archiveDate }: { archiveDate?: string }) {
 
     const numCluesToReveal = gameStatus === 'playing' ? attempts + 1 : MAX_ATTEMPTS;
     const revealedClues = clues.slice(0, numCluesToReveal);
+
+    //logic for sharing results
+    const handleShare = async() => {
+        const score = gameStatus === 'won' ? `${attempts}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`;
+        const emojiGrid = inFamily
+        .map((isFamilyMatch, index) => {
+            if (gameStatus === 'won' && index === attempts - 1) {
+                return '🟩';
+            }
+            return isFamilyMatch ? '🟨' : '🟥';
+        })
+        .join(' ');
+
+        const shareText = `Aquaticdle ${targetDateStr}\nScore: ${score}\n\n${emojiGrid}`;
+
+        //trying mobile share first, going back to clipboard if fails
+        if (navigator.share) {
+            try {
+                await navigator.share({
+                    title: 'Aquaticdle',
+                    text: shareText,
+                });
+                return;
+            } catch (err) {
+            }
+        }
+
+        if (navigator.clipboard) {
+            try {
+                await navigator.clipboard.writeText(shareText);
+                setCopied(true);
+                setTimeout(() => setCopied(false), 2500); 
+            } catch (err) {
+                console.error('Failed to copy share text: ', err);
+            }
+        }
+    };
 
     return (
         <>
@@ -249,6 +287,26 @@ export default function Aquaticdle({ archiveDate }: { archiveDate?: string }) {
                         )}
                         
                         <p style={{ margin: '10px 0', lineHeight: '1.4' }}><strong>Range:</strong> {species.range}</p>
+
+                        <div style={{ margin: '20px 0' }}>
+                        <button
+                            onClick={handleShare}
+                            style={{
+                                backgroundColor: copied ? 'rgba(0, 255, 0, 0.2)' : 'rgba(50, 107, 198, 0.9)',
+                                color: '#ffffff',
+                                border: 'none',
+                                padding: '12px 24px',
+                                fontSize: '16px',
+                                fontWeight: 'bold',
+                                borderRadius: '8px',
+                                cursor: 'pointer',
+                                transition: 'background-color 0.2s ease',
+                                boxShadow: '0 4px 6px rgba(0,0,0,0.15)'
+                            }}
+                        >
+                            {copied ? 'Copied to Clipboard' : 'Share Results'}
+                        </button>
+                    </div>
                         
                         <div style={{ 
                             marginTop: '25px', 
