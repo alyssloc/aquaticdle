@@ -56,7 +56,7 @@ export default function Archive() {
         const isAfterToday = 
             viewYear > currentYear || 
             (viewYear === currentYear && viewMonth > currentMonth) || 
-            (viewYear === currentYear && viewMonth === currentMonth && day > today.getUTCDate());
+            (viewYear === currentYear && viewMonth === currentMonth && day >= today.getUTCDate());
 
         const isPlayable = !isBeforeStart && !isAfterToday;
 
