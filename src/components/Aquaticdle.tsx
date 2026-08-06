@@ -309,12 +309,12 @@ export default function Aquaticdle({ archiveDate }: { archiveDate?: string }) {
                     </div>
                         
                         <div style={{ 
-                            marginTop: '25px', 
+                            marginTop:  '25px', 
                             marginBottom: '25px',
                             padding: '15px', 
-                            backgroundColor: '#f8f9fa', 
+                            backgroundColor: !archiveDate ? '#f8f9fa' : '#ffffff', 
                             borderRadius: '8px', 
-                            border: '1px solid #e0e0e0',
+                            border: !archiveDate ?'1px solid #e0e0e0' : '',
                             display: 'inline-block',
                             minWidth: '200px'
                             }}>
