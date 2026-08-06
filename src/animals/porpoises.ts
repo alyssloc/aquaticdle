@@ -52,7 +52,7 @@ export const PORPOISE_DATA: Species[] = [
         scientificName: "Phocoena phocoena",
         range: "Cooler coastal waters of the North Atlantic, North Pacific and the Black Sea",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am smaller than the other porpoises",
                 "I stay close to costal waters or river estuaries",
                 "I have three subspecies",
@@ -82,7 +82,7 @@ export const PORPOISE_DATA: Species[] = [
         scientificName: "Phocoena dioptrica",
         range: "Cool temperate, sub-Antarctic and Antarctic waters",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am countershaded, with a black dorsal region which is sharply delineated from a white belly",
                 "I have black eye patches",
                 "Little is known about me",
@@ -112,7 +112,7 @@ export const PORPOISE_DATA: Species[] = [
         scientificName: "Phocoenoides dalli",
         range: "North Pacific Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am the largest porpoise",
                 "I am mostly black, with white to grey patches on the flank and belly",
                 "I commonly eat mesopelagic fish, such as myctophids, and gonatid squid",

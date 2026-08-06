@@ -8,7 +8,7 @@ export const BELUGA_WHALE_DATA: Species[] = [
         range: "Arctic and sub-Arctic waters",
         clues: [
                 "I am known to interbreed with Narwhals",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am completely white or whitish-grey in colour",
                 "I seasonally shed my skin",
                 "My melon is extremely bulbous, lobed and visible as a large frontal prominence",

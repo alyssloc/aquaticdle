@@ -37,7 +37,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Halichoerus grypus",
         range: "Shores of the North Atlantic Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have very variable colorings and fur patterns",
                 "Pups are often stark white at birth",
                 "I am a popular tourist attraction for seal watching",
@@ -52,7 +52,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Histriophoca fasciata",
         range: "Arctic and subarctic regions of the North Pacific Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have relatively weak and smooth canines",
                 "When captured in nets, I have been observed feigning death",
                 "I haul out on pack ice in the spring to mate, molt, and give birth",
@@ -67,7 +67,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Hydrurga leptonyx",
         range: "Antarctic Sea",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I spend most of my time on pack ice",
                 "When young, I mainly eat fish, squid, and krill",
                 "I am primarily a shallow diver",
@@ -82,7 +82,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Leptonychotes weddellii",
         range: "Coastal Antarctic Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I spend most of my time underwater in the winter",
                 "I can give birth to twins",
                 "I maintain breathing holes in fast ice",
@@ -97,7 +97,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Lobodon carcinophaga",
         range: "Antarctic Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I give birth alone, hauling out onto ice",
                 "I am seen further inland than other pinniped species",
                 "First year mortality for pups often exceeds 80%",
@@ -112,7 +112,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Mirounga angustirostris",
         range: "Northeastern Pacific Ocean ",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "Pups are born with almost black fur",
                 "I spend most of my time at sea",
                 "Males threaten each other with snorts",
@@ -127,7 +127,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Mirounga leonina",
         range: "Antarctic and subantarctic region",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "Pups are born with almost black fur",
                 "I can go months without eating to defend my territory",
                 "I am the deepest diving mammal",
@@ -187,7 +187,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Ommatophoca rossii",
         range: "Coastal Antarctic Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have big eyes",
                 "I mate underwater",
                 "I can produce a variety of complex twittering and siren-like sounds",
@@ -217,7 +217,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Phoca largha",
         range: "Northern Pacific Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am solitary, but join large groups for pupping",
                 "I can be found on ice floes",
                 "I have been observed migrating over 2,100 miles",
@@ -232,7 +232,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Phoca vitulina",
         range: "Northern Hemisphere coastlines",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am solitary, but join large groups for pupping",
                 "I have been recorded eating ducks",
                 "I have five subspecies",
@@ -247,7 +247,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Pusa sibirica",
         range: "Lake Baikal",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am not strongly sexually dimorphic",
                 "I am solitary for most of the year",
                 "I am small with large eyes",
@@ -292,7 +292,7 @@ export const SEAL_DATA: Species[] = [
         scientificName: "Pusa hispida hispida",
         range: "Not Available",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am solitary",
                 "I create breathing holes in ice using my claws",
                 "I like to rest on ice floe",

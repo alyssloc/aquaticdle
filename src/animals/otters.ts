@@ -68,7 +68,7 @@ export const OTTER_DATA: Species[] = [
         scientificName: "Lontra canadensis",
         range: "Most of Canada and along the coasts of the United States and its inland waterways",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have seven identified subspecies",
                 "I can live in a wide variety of aquatic enviornments, both freshwater and costal marine",
                 "I am social",

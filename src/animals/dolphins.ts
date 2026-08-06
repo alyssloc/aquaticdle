@@ -7,7 +7,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Delphinus delphis",
         range: "Tropical to warm-temperate waters ranging from 40-60°N to 50°S",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I live in pods with up to thousands of members",
                 "I am known to display altruistic behavior, helping injured pod members",
                 "I have four subspecies",
@@ -22,7 +22,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Lagenodelphis hosei",
         range: "Deep waters in the Pacific, Indian, and Atlantic oceans",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "Less is known about my behavior compared to my costal cousins",
                 "I live in pods of up to ~1000 members",
                 "I am often spotted in the Gulf of Mexico and the Phillipines",
@@ -127,7 +127,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Stenella attenuata",
         range: "All the world's temperate and tropical oceans",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am very active,  prone to making large, splashy leaps from the sea",
                 "I swim with Yellowfin Tuna but do not eat them",
                 "I have two recongized subspecies",
@@ -142,7 +142,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Stenella clymene",
         range: "The Atlantic Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "One of my predators is the Cookie Cutter Shark",
                 "I mostly eat squid and small schooling fish",
                 "I live in groups, typically around 40 members",
@@ -157,7 +157,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Stenella coeruleoalba",
         range: "Temperate and tropical waters of all the world's oceans",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I eat fish, squid, octopus, krill, and other crustaceans",
                 "I can dive to depths of 700 m to hunt deeper-dwelling species",
                 "I typically live for around 55 to 60 years",
@@ -172,7 +172,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Stenella frontalis",
         range: "Warm temperate and tropical waters of the Atlantic Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I typially live in social groups of five to 15 members, and often mix with Common Dolphins",
                 "I am a fast swimmer and known for my bow-riding and long, shallow leaping behaviors",
                 "I hunt in groups at night",
@@ -187,7 +187,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Stenella longirostris",
         range: "Tropical and subtropical oceans worldwide",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am small with a slim build",
                 "I have four named subspecies",
                 "I can be seen resting in shallow bays in certain regions like Hawaii and northern Brazil",
@@ -232,7 +232,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Tursiops truncatus",
         range: "Temperate and tropical oceans throughout the world",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "Members of my species have a signature whistle",
                 "My diet consists mainly of eels, squid, shrimp and a wide variety of fishes",
                 "I have four recognized subspecies",
@@ -247,7 +247,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Aethalodelphis obliquidens",
         range: "Cool or temperate waters of the North Pacific Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "My chin, throat and belly are creamy white, and my beak, flippers, back, and dorsal fin are a dark gray",
                 "I form groups, with around 90 members on average",
                 "I readily approaches boats and bow-rides",
@@ -262,7 +262,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Aethalodelphis obscurus",
         range: "Coastal waters of the Southern Hemisphere",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I raise my young in nursery groups",
                 "I have three recognized subspecies",
                 "I have a multi-coloured pigmentation of black, grey, and white",
@@ -277,7 +277,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Cephalorhynchus australis",
         range: "The waters around Tierra del Fuego at the foot of South America",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I can produce both broadband clicks and tonal whistles",
                 "I feed mainly on the demersal and bottom fish such as southern cod and Patagonian grenadier",
                 "I typically congregate in groups of five",
@@ -292,7 +292,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Cephalorhynchus commersonii",
         range: "The tip of South America and around the Kerguelen Islands in the Indian Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "My sex is easily determined by the shape of the black blotch on my belly",
                 "I have two disjunct subspecies found in geographically disparate areas",
                 "I look like a porpoise",
@@ -307,7 +307,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Cephalorhynchus cruciger",
         range: "Offshore Antarctic and sub-Antarctic waters",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I prefer colder water",
                 "There have been no verified sightings of my calves ",
                 "I am colored black on top and white on the belly, with white patches on the sides",
@@ -367,7 +367,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Lissodelphis borealis",
         range: "Cold and temperate waters of the North Pacific Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I form pods with up to 110 to 200 members",
                 "I lack a dorsal fin",
                 "I have been observed associating with Pacific white-sided dolphins, Baird's beaked whales, Dall's porpoises, humpback whales, pilot whales, Risso's dolphins , and sperm whales",
@@ -382,7 +382,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Lissodelphis peronii",
         range: "Cool waters of the Southern Hemisphere",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I lack a dorsal fin",
                 "Despite being relatively common, I have a very low sighting rate",
                 "I am social, and have been observed in groups with over 1000 members",
@@ -397,7 +397,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Feresa attenuata",
         range: "Tropical and subtropical waters worldwide",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am extremely aggresive in captivity, but this behavior has not been observed in the wild",
                 "I am mainly found in deep water, 500m to 2000m in depth",
                 "I am dark gray to black on the cape and have a sharp change to lighter gray on the sides",
@@ -413,7 +413,7 @@ export const DOLPHIN_DATA: Species[] = [
         range: "Coastal and pelagic waters in temperate and tropical regions of the Indian, Atlantic, and Pacific Oceans",
         clues: [
                 "I have a matrilineal social hierarchy",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am highly playful and social, and travel in pods with 10 to 30 members",
                 "I am an apex predator",
                 "I am black to dark gray/brown, with a thick tail stock, fluke with sharply pointed tips, bulbous head, and a broad, sickle-shaped dorsal fin",
@@ -427,7 +427,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Globicephala melas",
         range: "The North Atlantic and the Southern Hemisphere",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am known for my unusually long pectoral fins",
                 "I have more neocortical neurons than any mammal studied to date, including humans",
                 "I been observed babysitting calves that are not my own, and many of those doing the babysitting are males",
@@ -442,7 +442,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Grampus griseus",
         range: "Worldwide in cold to temperate waters",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I typically travel in groups of between 10 and 51",
                 "My preferred environment is just off the continental shelf, on steep banks",
                 "I have large anterior body and dorsal fin, and a bulbous head",
@@ -488,7 +488,7 @@ export const DOLPHIN_DATA: Species[] = [
         range: "Deep tropical/subtropical oceanic waters, between 40°N and 35°S",
         clues: [
                 "My common name is dervied from my head shape",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am often confused with the Pygmy Killer Whale",
                 "I am highly social, traveling in groups of 100 to 500",
                 "I feed at night",
@@ -518,7 +518,7 @@ export const DOLPHIN_DATA: Species[] = [
         range: "Deep warm and tropical waters around the world",
         clues: [
                 "My teeth have narrow irregular ridges",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am typically social, forming groups with 10 to 20 members on average",
                 "My echolocation clicks are unusually brief",
                 "I commonly 'skim', by swimming with their heads and chin above the surface of the water",
@@ -547,7 +547,7 @@ export const DOLPHIN_DATA: Species[] = [
         scientificName: "Lagenorhynchus albirostris",
         range: "Cold temperate and subarctic waters of the North Atlantic Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I feed predominantly on gadoid fishes, particularly cod, haddock, and whiting",
                 "I frequently have been observed feeding with killer, fin, and humpback whales, as well as other dolphin species",
                 "I live in colder water",
@@ -563,7 +563,7 @@ export const DOLPHIN_DATA: Species[] = [
         range: "Cool to temperate waters of the North Atlantic Ocean",
         clues: [
                 "I am a relatively small dolphin",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have a white to pale-yellow patch behind the dorsal fin on both sides of my body",
                 "My diet mainly consists of herring, hake and squid",
                 "I live in pods, averaging 50 members",

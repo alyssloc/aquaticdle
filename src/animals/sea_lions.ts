@@ -52,7 +52,7 @@ export const SEA_LION_DATA: Species[] = [
         scientificName: "Zalophus californianus",
         range: "Pacific North American coast",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I mainly eat octopus, squid, fish, and sometimes clams",
                 "I have color vision and strong underwater hearing",
                 "I spend most of my time at sea, but come to shore to molt",

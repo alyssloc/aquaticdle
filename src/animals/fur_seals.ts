@@ -22,7 +22,7 @@ export const FUR_SEAL_DATA: Species[] = [
         scientificName: "Arctocephalus pusillus",
         range: "South African and Australian Coasts",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I live for upwards of 21 years in the wild",
                 "I form hunting parties of up to 20 seals",
                 "I am hunted by large sharks, hyenas, and jackals",
@@ -67,7 +67,7 @@ export const FUR_SEAL_DATA: Species[] = [
         scientificName: "Arctocephalus philippii",
         range: "Islands off of the Pacific coast of South America",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "Males have golden-tipped thick guard hairs on the back of the head, neck, and shoulders",
                 "Much is still unknown about my species",
                 "I was discovered in the 1500s by a Spanish explorer",
@@ -82,7 +82,7 @@ export const FUR_SEAL_DATA: Species[] = [
         scientificName: "Arctocephalus forsteri",
         range: "Southern Australian and New Zealand coasts",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "Commerical fishieries are my main cause of death",
                 "Males can dive for up to 15 minutes",
                 "I eat cephalopods, birds, and fish",
@@ -97,7 +97,7 @@ export const FUR_SEAL_DATA: Species[] = [
         scientificName: "Arctocephalus australis",
         range: "Southern South American coasts",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "A mortality rate of 31-49% has been reported in some years for pups",
                 "I have four known subspecies",
                 "I can wean for up to three years",
@@ -112,7 +112,7 @@ export const FUR_SEAL_DATA: Species[] = [
         scientificName: "Arctocephalus tropicalis",
         range: "Southern parts of the Indian, Pacific, and Atlantic Oceans",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "Pups are black at birth",
                 "I am know to occasionally eat Rockhopper Penguins",
                 "I occasionally travel long distances, up to thousands of miles from home",

@@ -13,6 +13,7 @@ import { SEA_LION_DATA } from './sea_lions.ts';
 import { SEAL_DATA } from './seals.ts';
 import { TAPIR_DATA } from './tapir.ts';
 import { WALRUS_DATA } from './walruses.ts';
+import { WATER_SHREW_DATA } from './water_shrews.ts';
 import { WHALE_DATA } from './whales.ts';
 
 
@@ -31,5 +32,6 @@ export const SPECIES_DATA: Species [] = [
     ...SEAL_DATA,
     ...TAPIR_DATA,
     ...WALRUS_DATA,
+    ...WATER_SHREW_DATA,
     ...WHALE_DATA
 ]

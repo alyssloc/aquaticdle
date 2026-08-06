@@ -1,6 +1,6 @@
 # Aquaticdle
 
-A daily Wordle-inspired guessing game for aquatic, semiaquatic, and marine mammals (currently excluding the semi-aquatic members of the sub-family sigmodontinae and the families muridae, thryonomyidae, and soricidae). Players have six tries to guess the mystery animal using revealed clues, family hints, and range info.
+A daily Wordle-inspired guessing game for aquatic, semiaquatic, and marine mammals (currently excluding the semi-aquatic members of the sub-family sigmodontinae and the families muridae, and thryonomyidae). Players have six tries to guess the mystery animal using revealed clues, family hints, and range info.
 
 
 ## Features

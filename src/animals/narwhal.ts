@@ -7,7 +7,7 @@ export const NARWHAL_DATA: Species[] = [
         scientificName: "Monodon monoceros",
         range: "The Arctic waters of Canada, Greenland and Russia",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "If male, I have a spiralized tusk",
                 "I lack a dorsal fin, having a shallow ridge instead",
                 "I am known to interbreed with the Beluga Whale",

@@ -38,7 +38,7 @@ export const WHALE_DATA: Species[] = [
         range: "Arctic and subarctic waters",
         clues: [
                 "I am also called the 'Greenland right whale', 'Arctic whale', and 'polar whale'",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have the largest mouth of any animal",
                 "I am named for my large triangular skull, which I uses to break through Arctic ice",
                 "During breeding season, I make long, complex, variable songs for mating calls",
@@ -52,7 +52,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Eubalaena australis",
         range: "The Southern Hemisphere, primarily ranging between latitudes 20° and 60° South",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I was a prime whaling target, or the 'right' whale to hunt",
                 "Kelp gulls off the coast of Patagonia have been observed attacking and feeding on me while I'm alive",
                 "I have a unique behavior called known as tail sailing, which is a form of play",
@@ -97,7 +97,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Caperea marginata",
         range: "Cool to temperate and sub-Antarctic waters generally between 30°S and 50°S",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "temperate waters of the Southern Hemisphere",
                 "I am the smallest of the baleen whales",
                 "I am typically seen alone or in pairs",
@@ -113,7 +113,7 @@ export const WHALE_DATA: Species[] = [
         range: "The Northern Hemisphere and Southern oceans",
         clues: [
                 "I am now a common target of the whaling industry",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have white flippers and shoulder blazes",
                 "I primarily eat small schooling fish, demersal fish, and kril",
                 "I am typically seen alone",
@@ -142,7 +142,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Eschrichtius robustus",
         range: "Shallow coastal waters of the North Pacific Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am dark slate-gray, covered by characteristic gray-white patterns",
                 "I have two blowholes on top of my head, which can create a distinctive heart-shaped blow",
                 "I feed benthically, by diving to the ocean floor and rolling on to my side, and sucking up prey from the sea floor",
@@ -158,7 +158,7 @@ export const WHALE_DATA: Species[] = [
         range: "All major oceans",
         clues: [
                 "I use bubble nets to catch prey",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have bumps or tubercles on the head and front edge of the flippers",
                 "I am polygynandrous (both sexes have multiple partners",
                 "I am the focus of most commercial whale watching",
@@ -232,7 +232,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Kogia breviceps",
         range: "Tropical and temperate waters of the Atlantic, Pacific, and Indian Oceans,and occasionally among colder waters",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have a spermaceti organ in my forehead",
                 "As an adult, my teeth lack enamel",
                 "I make very inconspicous movements, rising to the surface with little splashing",
@@ -247,7 +247,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Kogia sima",
         range: "Tropical and temperate oceans of the world",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am a suction feeder that mainly eats squid",
                 "I use a form of 'ink' to evade predation in a manner similar to squid",
                 "I produce narrowband high-frequency clicks.",
@@ -262,7 +262,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Berardius arnuxii",
         range: "The Southern Hemisphere",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have many other names, such as the 'southern four-toothed whale' and the 'New Zealand beaked whale'",
                 "I have similar features to Baird's beaked whales",
                 "I am a deep-diving, echolocating suction-feeder",
@@ -322,7 +322,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Ziphius cavirostris",
         range: "Primarily  temperate, tropical, and subtropical areas of the Atlantic, Pacific, and Indian Oceans",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am among the largest beaked whales",
                 "I am typically found in small groups of two to seven",
                 "I am a specialized hunter of squid",
@@ -352,7 +352,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Hyperoodon planifrons",
         range: "The Southern Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am smaller than my northern equivalent in my genus",
                 "I feed mainly on squid",
                 "I am resident in Antarctic waters",
@@ -367,7 +367,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Indopacetus pacificus",
         range: "Warm, deep, pelagic waters of the tropical and subtropical Indian and Pacific Oceans",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am one of the world's rarest cetaceans",
                 "I am also known as the 'Indo-Pacific beaked whale' or 'Longman's beaked whale'",
                 "I typically travel in pods with 15 to 20 members",
@@ -382,7 +382,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Mesoplodon bidens",
         range: "Deep, cold temperate, and subarctic waters of the North Atlantic Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am also known as the 'North Atlantic or North Sea beaked whale'",
                 "I am mainly distinguished by the male's dual teeth positioned far back in the mouth",
                 "I am reclusive, stay away from boats, and rarely sighted",
@@ -427,7 +427,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Mesoplodon densirostris",
         range: "Tropical and warm waters in all oceans",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am also called the 'dense-beaked whale'",
                 "I forage all day, but at night, I typically dive deeper",
                 "I typically live in small groups of three to seven",
@@ -457,7 +457,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Mesoplodon europaeus",
         range: "Tropical to warm-temperate deep waters of the North Atlantic Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am the largest of the mesoplodonts",
                 "I occur in small groups",
                 "I am also known as the 'Antillean beaked whale', 'Gulf Stream beaked whal'e, or 'European beaked whale'",
@@ -487,7 +487,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Mesoplodon grayi",
         range: "Cool-temperate waters in the Southern Hemisphere",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "In the Māori language, I am called 'hakurā' or 'iheihe'",
                 "I have a tendancy to strand in large groups",
                 "My overall coloration is dark on top and light below",
@@ -517,7 +517,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Mesoplodon layardii",
         range: "The Southern Ocean",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am also known as the 'Layard's beaked whale'",
                 "I have a white beak, with a pale white 'cape'",
                 "Only males retain functional teeth",
@@ -532,7 +532,7 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Mesoplodon mirus",
         range: "The Atlantic and Indian Oceans",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "The Ramari's beaked whale was thought to be a potential subspecies",
                 "I have a bulbous melon and short beak",
                 "My coloration is gray to brownish gray on the back, and darker around my eyes, and on my lips",
@@ -548,7 +548,7 @@ export const WHALE_DATA: Species[] = [
         range: "Eastern tropical Pacific between Baja California and Peru",
         clues: [
                 "I am the smallest beaked whale",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am also known as the 'bandolero beaked whale', 'Peruvian beaked whale' and 'lesser beaked whale'",
                 "I am frequently documented as bycatch in gillnet fisheries",
                 "Females and calves have a distinctive eye patch",

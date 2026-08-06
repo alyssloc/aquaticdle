@@ -10,7 +10,6 @@ const getDailySpecies = (targetDate: Date) => {
     const dateSeed = targetDate.getUTCFullYear() * 10000 + (targetDate.getUTCMonth() + 1) * 100 + targetDate.getUTCDate();
     const pseudoRandom = Math.abs(Math.sin(dateSeed) * 10000);
     const index = Math.floor((pseudoRandom - Math.floor(pseudoRandom)) * SPECIES_DATA.length);
-    
     return SPECIES_DATA[index];
 };
 

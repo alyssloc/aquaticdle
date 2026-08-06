@@ -82,7 +82,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Neogale vison",
         range: "Most of North America,  through Canada and further into the United States",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have fifteen recognized subpecies",
                 "I have a long body, used for entering burrows",
                 "I typially form territories in undisturbed, rocky coastal habitats",
@@ -127,7 +127,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Atilax paludinosus",
         range: "Freshwater wetlands in sub-saharan Africa",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "My fur is dark reddish brown to black with white and fawn coloured guard hairs",
                 "I inhabit freshwater wetlands, marshes and swamps along slow-moving rivers and streams",
                 "I am an excellent swimmer and can dive for up to 15 seconds",
@@ -143,8 +143,23 @@ export const FRESHWATER_DATA: Species[] = [
         range: "All countries in South America except for Chile",
         clues: [
                 "I am the world's largest rodent",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I live in densely forested areas near bodies of water",
+                "I graze mainly on grasses and aquatic plants",
+                "My known predators include jaguars, ocelots, cougars, eagles, caimans and green anacondas",
+                "I am highly social, typically found in groups of 10 to 20"
+            ]
+    },
+    {
+        id: "lesser-capybara",
+        name: "Lesser Capybara",
+        family: "Caviidae",
+        scientificName: "Hydrochoerus isthmius",
+        range: "All countries in South America except for Chile",
+        clues: [
+                "I am smaller than my 'greater' counterpart",
+                "My conservation status is data deficient",
+                "I breed in the water",
                 "I graze mainly on grasses and aquatic plants",
                 "My known predators include jaguars, ocelots, cougars, eagles, caimans and green anacondas",
                 "I am highly social, typically found in groups of 10 to 20"
@@ -157,7 +172,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Myocastor coypus",
         range: "Temperate South America, the Gulf Coast, and the Pacific Northwest",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am often mistaken for a muskrat",
                 "I eat aquatic vegetation",
                 "While native to South America, I have been introduced in the United States",
@@ -172,7 +187,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Castor canadensis",
         range: "North America, from Alaska to Northern Mexico",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I consume a mix of herbaceous and woody plants",
                 "I have a large, scaly, paddle-shaped tail and webbed hind feet",
                 "I am mainly active at night",
@@ -187,7 +202,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Castor fiber",
         range: "Almost all countries in Continental Europe",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am the largest rodent native to Eurasia",
                 "I am a keystone species",
                 "I consume a mix of herbaceous and woody plants",
@@ -202,7 +217,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Ondatra zibethicus",
         range: "Most of Canada, the United States, a small part of Northern Mexico, and northwestern Europe",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "My hind feet are partially webbed",
                 "I typically live in families consisting of a male, female, and their young",
                 "I burrow into the bank with an underwater entrance in streams, ponds, or lake",
@@ -217,7 +232,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Neofiber alleni",
         range: "Swamps in the Southeastern United States",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am sometimes called the 'Florida Water Rat'",
                 "I live in lodges formed out of plant material",
                 "I am a social mammal",
@@ -232,7 +247,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Arvicola amphibius",
         range: "Most of Europe, Russia, West Asia and Kazakhstan",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am often informally called the 'water rat'",
                 "I live in burrows excavated within the banks of rivers, ditches, ponds, and streams",
                 "I  mainly eat grass, sedges, rushes, herbs, and other vegetation near the water",
@@ -247,7 +262,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Microtus richardsoni",
         range: "Two bands in the Western United States and Canada",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have gray-brown or red-brown fur with gray under parts",
                 "I feed on grasses, leaves, roots and seeds, and also eat small invertebrates",
                 "I dig burrows that are connected to water sources",
@@ -292,7 +307,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Potamogale velox",
         range: "The main rainforest block of central Africa from Nigeria to Zambia",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am found in Africa",
                 "I look similar to an otter",
                 "I am mainly found in  fast flowing rivers, streams, swamps, and coastal rivers",
@@ -322,7 +337,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Micropotamogale ruwenzorii",
         range: "The Democratic Republic of the Congo, Rwanda, and Uganda",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am most closely related to the tenrecs of Madagascar",
                 "I live in the rivers and streams of various biomes, mostly in forests",
                 "My prey is primarily small animals, such as fish, crabs, worms, insects, and small frogs",
@@ -352,7 +367,7 @@ export const FRESHWATER_DATA: Species[] = [
         scientificName: "Condylura cristata",
         range: "The northeastern United States and eastern Canada",
         clues: [
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I have more than 25,000 minute sensory receptors in touch organs, known as Eimer's organs",
                 "I live in wet lowland areas",
                 "I eat small invertebrates",
@@ -398,7 +413,7 @@ export const FRESHWATER_DATA: Species[] = [
         range: "Grasslands of South America",
         clues: [
                 "I carry my young in a pouch",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am found in South America",
                 "I am terrestrial, but an excellent swimmer and climber",
                 "I generally live in grasslands and savannas near water",
@@ -413,7 +428,7 @@ export const FRESHWATER_DATA: Species[] = [
         range: "Mexico through Central and South America to Argentina",
         clues: [
                 "I am found in and near freshwater streams and lakes",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I carry my young in a pouch",
                 "I have water-repellant fur and webbed hind feet",
                 "My fur is in a marbled grey and black pattern",
@@ -428,7 +443,7 @@ export const FRESHWATER_DATA: Species[] = [
         range: "Coast of the Pacific Northwest",
         clues: [
                 "I am endemic to the coast of the Pacific Northwest",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "75 to 90% of my diet is sourced from the ocean",
                 "My coat can be varying degrees of reddish-brown, grey, beige, and white fur, though entirely white",
                 "I actively hunt seals, otters, black-tailed deer, river otters, minks, elk, and beavers",
@@ -473,7 +488,7 @@ export const FRESHWATER_DATA: Species[] = [
         range: "The circumpolar boreal forests or temperate broadleaf and mixed forests of the Northern Hemisphere",
         clues: [
                 "Males have antlers",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "I am the second largest land animal in North America",
                 "I am a browsing herbivore, and I eat both terrestrial and aquatic vegetation",
                 "I prefer to live in areas with snow",
@@ -518,7 +533,7 @@ export const FRESHWATER_DATA: Species[] = [
         range: "Swampy and marshy habitats throughout central Africa",
         clues: [
                 "I am also known as the 'marshbuck'",
-                "I am a species of least concern",
+                "I am a least concern species",
                 "Males have long horns",
                 "I have a rubbery, shaggy, water-repellent coat",
                 "I seldom leave my swamp habitat during the day",

@@ -115,7 +115,7 @@ function InfoPopup(props: InfoPopupProps) {
                             <h4 style={{ color: '#1a1a1a', textAlign: 'center' }}>Guess Color Coding</h4>
                             <ul>
                                 <li><span style={{ color: 'rgba(255, 0, 0, 1)' }}>Red</span>: incorrect. </li>
-                                <li><span style={{ color: 'rgb(249, 242, 112)' }}>Yellow</span>: in the correct family. For example, if the correct species is a Northern Fur Seal and you guess a Steller Sea Lion, this guess would be yellow, as both species are a member of the family Otariidae. </li>
+                                <li><span style={{ color: 'rgb(179, 170, 1)' }}>Yellow</span>: in the correct family. For example, if the correct species is a Northern Fur Seal and you guess a Steller Sea Lion, this guess would be yellow, as both species are a member of the family Otariidae. </li>
                                 <li><span style={{ color: 'rgba(0, 255, 0, 1)' }}>Green</span>: correct </li>
                             </ul>
                         </div>
