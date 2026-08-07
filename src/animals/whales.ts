@@ -8,11 +8,11 @@ export const WHALE_DATA: Species[] = [
         range: "Northern Gulf of Mexico",
         clues: [
                 "I am a critically endangered species",
-                "In outward appearance, I virtually identical to the Bryde's whale",
                 "I am also called the 'Gulf of Mexico Whale",
                 "I spend daytime in deep water and nighttime near the surface",
                 "I primarily eat  silver-rag driftfish, a demersal schooling fish",
-                "Oil spills are one of my greatest threats, with the Deepwater Horizon oil spill killing nearly twenty percent of my population"
+                "Oil spills are one of my greatest threats, with the Deepwater Horizon oil spill killing nearly twenty percent of my population",
+                "In outward appearance, I virtually identical to the Bryde's whale"
             ]
     },
     {
@@ -23,11 +23,11 @@ export const WHALE_DATA: Species[] = [
         range: "All oceans, but rarely in polar or tropical waters",
         clues: [
                 "I am an endangered species",
-                "I am closely related to the Blue Whale",
                 "I am typically dark steel grey with irregular light grey to white markings on the ventral surface",
                 "I have a distinctive upright dorsal fin",
                 "I generally migrate annually from cool and subpolar waters in summer to temperate and subtropical waters for winter",
-                "I make long, loud, low-frequency sounds"
+                "I make long, loud, low-frequency sounds",
+                "I am closely related to the Blue Whale"
             ]
     },
     {
@@ -37,12 +37,12 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Balaena mysticetus",
         range: "Arctic and subarctic waters",
         clues: [
-                "I am also called the 'Greenland right whale', 'Arctic whale', and 'polar whale'",
                 "I am a least concern species",
                 "I have the largest mouth of any animal",
                 "I am named for my large triangular skull, which I uses to break through Arctic ice",
                 "During breeding season, I make long, complex, variable songs for mating calls",
-                "I am considered to be the longest living mammal, capable of living over 200 years"
+                "I am considered to be the longest living mammal, capable of living over 200 years",
+                "I am also called the 'Greenland right whale', 'Arctic whale', and 'polar whale'"
             ]
     },
     {
@@ -53,11 +53,11 @@ export const WHALE_DATA: Species[] = [
         range: "The Southern Hemisphere, primarily ranging between latitudes 20° and 60° South",
         clues: [
                 "I am a least concern species",
-                "I was a prime whaling target, or the 'right' whale to hunt",
                 "Kelp gulls off the coast of Patagonia have been observed attacking and feeding on me while I'm alive",
                 "I have a unique behavior called known as tail sailing, which is a form of play",
                 "I often interact with Humpback Whales and dolphins",
-                "I am rather active on the water surface and curious towards human vessels"
+                "I am rather active on the water surface and curious towards human vessels",
+                "I was a prime whaling target, or the 'right' whale to hunt"
             ]
     },
     {
@@ -67,12 +67,12 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Eubalaena glacialis",
         range: "The western North Atlantic Ocean along the eastern seaboard of North America",
         clues: [
-                "I was a prime whaling target, or the 'right' whale to hunt",
                 "I am a critically endangered species",
                 "Many scientists believe I am already functionally extinct",
                 "I feed mainly on copepods and other small invertebrates such as krill, pteropods, and larval barnacles",
                 "Up to 45% of my body weight is blubber, so I float immediately after dying",
-                "I am known to interact with Humpback Whales and Bottlenosed Dolphins"
+                "I am known to interact with Humpback Whales and Bottlenosed Dolphins",
+                "I was a prime whaling target, or the 'right' whale to hunt"
             ]
     },
     {
@@ -83,11 +83,11 @@ export const WHALE_DATA: Species[] = [
         range: "Temperate and subarctic waters of the Pacific Ocean",
         clues: [
                 "I am an endangered species",
-                "I was a prime whaling target, or the 'right' whale to hunt",
                 "I feed by skimming water continuously while swimming",
                 "I am sensitive to the presence of surface vessels, swimming away or submerging for longer periods of time",
                 "Hybrids between my species and the Bowhead Whale has been observed",
-                "I frequently make a percussive vocalization known as a 'gunshot call' or 'gunshot'"
+                "I frequently make a percussive vocalization known as a 'gunshot call' or 'gunshot'",
+                "I was a prime whaling target, or the 'right' whale to hunt"
             ]
     },
     {
@@ -98,11 +98,11 @@ export const WHALE_DATA: Species[] = [
         range: "Cool to temperate and sub-Antarctic waters generally between 30°S and 50°S",
         clues: [
                 "I am a least concern species",
-                "temperate waters of the Southern Hemisphere",
-                "I am the smallest of the baleen whales",
+                "I live in temperate waters of the Southern Hemisphere",
                 "I am typically seen alone or in pairs",
                 "I am very elusive, rarely being seen at sea",
-                "I feed on copepods and euphausiids"
+                "I feed on copepods and euphausiids",
+                "I am the smallest of the baleen whales"
             ]
     },
     {
@@ -144,10 +144,10 @@ export const WHALE_DATA: Species[] = [
         clues: [
                 "I am a least concern species",
                 "I am dark slate-gray, covered by characteristic gray-white patterns",
-                "I have two blowholes on top of my head, which can create a distinctive heart-shaped blow",
                 "I feed benthically, by diving to the ocean floor and rolling on to my side, and sucking up prey from the sea floor",
                 "I became extinct in the North Atlantic in the 18th century due to whaling",
-                "I undergo the longest migration of any mammal"
+                "I undergo the longest migration of any mammal",
+                "I have two blowholes on top of my head, which can create a distinctive heart-shaped blow"
             ]
     },
     {
@@ -157,12 +157,12 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Megaptera novaeangliae",
         range: "All major oceans",
         clues: [
-                "I use bubble nets to catch prey",
                 "I am a least concern species",
                 "I have bumps or tubercles on the head and front edge of the flippers",
                 "I am polygynandrous (both sexes have multiple partners",
                 "I am the focus of most commercial whale watching",
-                "If male, I produce complex songs during the winter breeding season"
+                "If male, I produce complex songs during the winter breeding season",
+                "I use bubble nets to catch prey"
             ]
     },
     {
@@ -176,8 +176,8 @@ export const WHALE_DATA: Species[] = [
                 "I am long, slender and brownish-gray in color, with a paler underside",
                 "I am a vulnerable species",
                 "I am often observed in pods of six to ten individuals",
-                "I am the second largest whale species",
-                "I typically live 75 to 90 years"
+                "I typically live 75 to 90 years",
+                "I am the second largest whale species"
             ]
     },
     {
@@ -187,12 +187,12 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Balaenoptera musculus",
         range: "Every ocean except the Arctic",
         clues: [
-                "I am the largest animal known to have ever existed",
                 "I am an endangered species",
                 "I live 80-90 years, or more",
                 "I am typically solitary, but can be found in groups",
                 "My diet consists almost exclusively of krill, which I capture through lunge feeding",
-                "I produce some of the loudest and lowest frequency vocalizations in the animal kingdom"
+                "I produce some of the loudest and lowest frequency vocalizations in the animal kingdom",
+                "I am the largest animal known to have ever existed"
             ]
     },
     {
@@ -217,12 +217,12 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Physeter macrocephalus",
         range: "All of the world's deep oceans",
         clues: [
-                "I am the largest tooth predator",
                 "I am a vulnerable species",
                 "As a fully mature and healthy adult, I have no natural predators",
                 "My head is filled with a waxy substance called 'spermaceti'",
                 "I can live to be over 70 years old",
-                "I am the target of Captain Ahab's quest for vengence"
+                "I am the target of Captain Ahab's quest for vengence",
+                "I am the largest tooth predator"
             ]
     },
     {
@@ -233,11 +233,11 @@ export const WHALE_DATA: Species[] = [
         range: "Tropical and temperate waters of the Atlantic, Pacific, and Indian Oceans,and occasionally among colder waters",
         clues: [
                 "I am a least concern species",
-                "I have a spermaceti organ in my forehead",
                 "As an adult, my teeth lack enamel",
                 "I make very inconspicous movements, rising to the surface with little splashing",
                 "I use a form of 'ink' to evade predation in a manner similar to squid",
-                "I mostly eat cephalopods"
+                "I mostly eat cephalopods",
+                "I have a spermaceti organ in my forehead"
             ]
     },
     {
@@ -263,11 +263,11 @@ export const WHALE_DATA: Species[] = [
         range: "The Southern Hemisphere",
         clues: [
                 "I am a least concern species",
-                "I have many other names, such as the 'southern four-toothed whale' and the 'New Zealand beaked whale'",
                 "I have similar features to Baird's beaked whales",
                 "I am a deep-diving, echolocating suction-feeder",
                 "I am highly social, having been seen in pods of up to 80",
-                "I have numerous white linear scars all over my body caused by the usage of apical teeth in social interactions"
+                "I have numerous white linear scars all over my body caused by the usage of apical teeth in social interactions",
+                "I have many other names, such as the 'southern four-toothed whale' and the 'New Zealand beaked whale'"
             ]
     },
     {
@@ -277,12 +277,13 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Berardius bairdii",
         range: "The North Pacific Ocean",
         clues: [
-                "I have many other names, such as the 'northern giant bottlenose whale' and the 'North Pacific bottlenose whale'",
                 "I have similar features to Arnoux's beaked whales",
-                "I am the largest beaked whale",
                 "I primarily feed on deep-water fishes and cephalopods",
                 "I live in schools of up to 100 individuals",
-                "I spend much of my time below the surface while foraging"
+                "I spend much of my time below the surface while foraging",
+                "I have many other names, such as the 'northern giant bottlenose whale' and the 'North Pacific bottlenose whale'",
+                "I am the largest beaked whale"
+
             ]
     },
     {
@@ -323,11 +324,11 @@ export const WHALE_DATA: Species[] = [
         range: "Primarily  temperate, tropical, and subtropical areas of the Atlantic, Pacific, and Indian Oceans",
         clues: [
                 "I am a least concern species",
-                "I am among the largest beaked whales",
                 "I am typically found in small groups of two to seven",
                 "I am a specialized hunter of squid",
                 "I am also known as the 'goose-beaked whale'",
-                "I inhabit deep offshore waters far from coastlines, typically deeper than 1,000m"
+                "I inhabit deep offshore waters far from coastlines, typically deeper than 1,000m",
+                "I am among the largest beaked whales"
             ]
     },
     {
@@ -356,8 +357,8 @@ export const WHALE_DATA: Species[] = [
                 "I am smaller than my northern equivalent in my genus",
                 "I feed mainly on squid",
                 "I am resident in Antarctic waters",
-                "My beak is long and white in males but grey in females",
-                "My dive times range from 15 to 40 mins"
+                "My dive times range from 15 to 40 mins",
+                "My beak is long and white in males but grey in females"
             ]
     },
     {
@@ -369,10 +370,10 @@ export const WHALE_DATA: Species[] = [
         clues: [
                 "I am a least concern species",
                 "I am one of the world's rarest cetaceans",
-                "I am also known as the 'Indo-Pacific beaked whale' or 'Longman's beaked whale'",
                 "I typically travel in pods with 15 to 20 members",
                 "Most frequent observations have occurred off the coasts of Hawaii",
-                "I look similar to both mesoplodont beaked whales and bottlenose whales"
+                "I look similar to both mesoplodont beaked whales and bottlenose whales",
+                "I am also known as the 'Indo-Pacific beaked whale' or 'Longman's beaked whale'"
             ]
     },
     {
@@ -383,11 +384,11 @@ export const WHALE_DATA: Species[] = [
         range: "Deep, cold temperate, and subarctic waters of the North Atlantic Ocean",
         clues: [
                 "I am a least concern species",
-                "I am also known as the 'North Atlantic or North Sea beaked whale'",
                 "I am mainly distinguished by the male's dual teeth positioned far back in the mouth",
                 "I am reclusive, stay away from boats, and rarely sighted",
                 "My diet consists primarily of small mesopelagic and benthopelagic fish",
-                "I am grey with light countershading on the bottom"
+                "I am grey with light countershading on the bottom",
+                "I am also known as the 'North Atlantic or North Sea beaked whale'"
             ]
     },
     {
@@ -398,11 +399,11 @@ export const WHALE_DATA: Species[] = [
         range: "The Southern Hemisphere",
         clues: [
                 "My conservation status is data deficient",
-                "I am also known as 'the deep-crest beaked whale' or 'splay-toothed whale'",
-                "I am a medium-sized beaked whale",
                 "I can be found around the southern coast of Australia and New Zeland",
                 "I may have a small, light or pale patch in front of the eye",
-                "I primarily eat deep sea squid"
+                "I primarily eat deep sea squid",
+                "I am a medium-sized beaked whale",
+                "I am also known as 'the deep-crest beaked whale' or 'splay-toothed whale'"
             ]
     },
     {
@@ -413,11 +414,11 @@ export const WHALE_DATA: Species[] = [
         range: "The coast of Japan and the Pacific coast of North America",
         clues: [
                 "My conservation status is data deficient",
-                "When discovered, I was originally thought to be Andrew's Beaked Whale",
                 "I have a a white 'cap' on my head",
                 "I can be found off the coast of Japan and the Pacific coast of North America",
                 "Extensive scaring on males may indicate a polygynous or harem-like mating system",
-                "I am presumed to be a deep-diving, echolocating suction-feeder"
+                "I am presumed to be a deep-diving, echolocating suction-feeder",
+                "When discovered, I was originally thought to be Andrew's Beaked Whale"
             ]
     },
     {
@@ -428,11 +429,11 @@ export const WHALE_DATA: Species[] = [
         range: "Tropical and warm waters in all oceans",
         clues: [
                 "I am a least concern species",
-                "I am also called the 'dense-beaked whale'",
                 "I forage all day, but at night, I typically dive deeper",
                 "I typically live in small groups of three to seven",
                 "Some of my recorded prey includes silver scabbardfish, hake, and mantis shrimp",
-                "I have a long-term site fidelity"
+                "I have a long-term site fidelity",
+                "I am also called the 'dense-beaked whale'"
             ]
     },
     {
@@ -443,11 +444,11 @@ export const WHALE_DATA: Species[] = [
         range: "The Southern Hemisphere",
         clues: [
                 "My conservation status is data deficient",
-                "I was previously thought to represent an Indian Ocean population of True's beaked whale",
                 "My species name, eueu, comes from the Khwedam word meaning 'big fish'",
                 "I was identified as a new species in October 2021",
                 "Little is known about my diet and behavior",
-                "Most of my strandings have been in South Africa"
+                "Most of my strandings have been in South Africa",
+                "I was previously thought to represent an Indian Ocean population of True's beaked whale"
             ]
     },
     {
@@ -460,9 +461,9 @@ export const WHALE_DATA: Species[] = [
                 "I am a least concern species",
                 "I am the largest of the mesoplodonts",
                 "I occur in small groups",
-                "I am also known as the 'Antillean beaked whale', 'Gulf Stream beaked whal'e, or 'European beaked whale'",
                 "I eat deepwater squid, crustaceans, and fish",
-                "i am believed to be naturally rare, and no population estimates have been attempted"
+                "i am believed to be naturally rare, and no population estimates have been attempted",
+                "I am also known as the 'Antillean beaked whale', 'Gulf Stream beaked whal'e, or 'European beaked whale'"
             ]
     },
     {
@@ -472,12 +473,12 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Mesoplodon ginkgodens",
         range: "Tropical and temperate waters in the Indian and Pacific Ocean",
         clues: [
-                "I am a poorly-known species of beaked whale",
                 "My conservation status is data deficient",
                 "Males lack scaring",
                 "I am shy, wary of boats, and spend almost all of my time foraging in the deep",
                 "My call has a distinct acoustic signature, known as BW43",
-                "My first known at-sea sighting occured in 2024 off the coast of Baja California"
+                "My first known at-sea sighting occured in 2024 off the coast of Baja California",
+                "I am a poorly-known species of beaked whale"
             ]
     },
     {
@@ -503,11 +504,11 @@ export const WHALE_DATA: Species[] = [
         range: "Cool temperature waters of the Southern Hemisphere",
         clues: [
                 "My conservation status is data deficient",
-                "A lot of my data was based on misidentified specimens of Perrin's beaked whale",
-                "I am one of the smallest beaked whales",
                 "I am dark greyish-brown dorsally, paler ventrally",
                 "I may move inshore from December to April",
-                "I feed on small deepwater squid and fish"
+                "I feed on small deepwater squid and fish",
+                "A lot of my data was based on misidentified specimens of Perrin's beaked whale",
+                "I am one of the smallest beaked whales"
             ]
     },
     {
@@ -518,11 +519,11 @@ export const WHALE_DATA: Species[] = [
         range: "The Southern Ocean",
         clues: [
                 "I am a least concern species",
-                "I am also known as the 'Layard's beaked whale'",
                 "I have a white beak, with a pale white 'cape'",
                 "Only males retain functional teeth",
                 "I am one of the largest members of the Mesoplodon genus",
-                "It is possible that I migrate to costal waters in the summer"
+                "It is possible that I migrate to costal waters in the summer",
+                "I am also known as the 'Layard's beaked whale'"
             ]
     },
     {
@@ -533,11 +534,11 @@ export const WHALE_DATA: Species[] = [
         range: "The Atlantic and Indian Oceans",
         clues: [
                 "I am a least concern species",
-                "The Ramari's beaked whale was thought to be a potential subspecies",
                 "I have a bulbous melon and short beak",
                 "My coloration is gray to brownish gray on the back, and darker around my eyes, and on my lips",
                 "I am believed to eat squid",
-                "I am most commonly found in the North Atlantic"
+                "I am most commonly found in the North Atlantic",
+                "The Ramari's beaked whale was thought to be a potential subspecies"
             ]
     },
     {
@@ -547,12 +548,12 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Mesoplodon peruvianus",
         range: "Eastern tropical Pacific between Baja California and Peru",
         clues: [
-                "I am the smallest beaked whale",
                 "I am a least concern species",
-                "I am also known as the 'bandolero beaked whale', 'Peruvian beaked whale' and 'lesser beaked whale'",
                 "I am frequently documented as bycatch in gillnet fisheries",
                 "Females and calves have a distinctive eye patch",
-                "I eat fish, squid, and crustaceans"
+                "I eat fish, squid, and crustaceans",
+                "I am the smallest beaked whale",
+                "I am also known as the 'bandolero beaked whale', 'Peruvian beaked whale' and 'lesser beaked whale'"
             ]
     },
     {
@@ -563,11 +564,11 @@ export const WHALE_DATA: Species[] = [
         range: "North Pacific waters off the coast of central and southern California",
         clues: [
                 "I am an endangered species",
-                "I likely represent pygmy beaked whales' Northern Hemisphere sister species",
                 "I have only been found off the coast of California",
                 "I can dive for up to two hours",
                 "I primarily feed on pelagic squid",
-                "I am thought to produce a species-specific echolocation pulse of BW43"
+                "I am thought to produce a species-specific echolocation pulse of BW43",
+                "I likely represent pygmy beaked whales' Northern Hemisphere sister species"
             ]
     },
     {
@@ -578,11 +579,11 @@ export const WHALE_DATA: Species[] = [
         range: "The North Pacific Ocean",
         clues: [
                 "I am a near threatened species",
-                "I am also known as the 'Bering Sea beaked whale' or the 'saber-toothed whale'",
                 "If male, my teeth are much larger than most other Mesoplodon species",
-                "I am the northernmost species of beaked whale in the Pacific Ocean",
                 "I am  diurnal and migratory",
-                "I am typically found in pods of two to six"
+                "I am typically found in pods of two to six",
+                "I am the northernmost species of beaked whale in the Pacific Ocean",
+                "I am also known as the 'Bering Sea beaked whale' or the 'saber-toothed whale'"
             ]
     },
     {
@@ -592,12 +593,12 @@ export const WHALE_DATA: Species[] = [
         scientificName: "Mesoplodon traversii",
         range: "The Southern Hemisphere, possibly only the South Pacific",
         clues: [
-                "I am the rarest species of beaked whale",
                 "My conservation status is data deficient",
                 "Only six confirmed specimens of my species have been found",
                 "My apperance is likely most similar to an oversized ginkgo-toothed beaked whale",
                 "I have never been seen alive",
-                "I have nine stomachs"
+                "I have nine stomachs",
+                "I am the rarest species of beaked whale"
             ]
     },
     {
@@ -608,11 +609,11 @@ export const WHALE_DATA: Species[] = [
         range: "The Indian and South Pacific Oceans",
         clues: [
                 "My conservation status is data deficient",
-                "I am closely related to the ginkgo-toothed beaked whale",
                 "I am known from seven specimens",
                 "I am presumed to be on the smaller side for a mesoplodont",
                 "I have been found with chipped teeth that suggest combat with other adult males",
-                "I have a pale, mottled cheek and white lower lip"
+                "I have a pale, mottled cheek and white lower lip",
+                "I am closely related to the ginkgo-toothed beaked whale"
             ]
     }
 ]

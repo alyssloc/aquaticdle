@@ -9,7 +9,7 @@ A daily Wordle-inspired guessing game for aquatic, semiaquatic, and marine mamma
 
 **Session Persistence**: Saves active game state—guesses, revealed clues, and win/loss status—in localStorage.  
 
-**Calendar Archive**: Browse and play past puzzles starting from July 20, 2026 using React Router.  
+**Calendar Archive**: Browse and play past puzzles starting from August 6th, 2026 using React Router.  
 
 **Easy Score Sharing**: Generates custom text grid scorecards using the mobile Web Share API, with a automatic desktop clipboard fallback.  
 
@@ -41,4 +41,4 @@ A daily Wordle-inspired guessing game for aquatic, semiaquatic, and marine mamma
 
 ## Link
 
-https://www.aquaticdle.com
+https://aquaticdle.com

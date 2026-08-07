@@ -42,10 +42,10 @@ export const WATER_SHREW_DATA: Species[] = [
         [
                 "I am endemic to Malaysia",
                 "I am an endangered species",
-                "I am a water shrew",
                 "I am found in forests and wetlands",
                 "I am threatened by habitat loss",
-                "I am one of the rarest species on Borneo"
+                "I am one of the rarest species on Borneo",
+                "I am a water shrew"
         ]
     },
     {
@@ -74,10 +74,10 @@ export const WATER_SHREW_DATA: Species[] = [
         [
                 "I am a least concern species",
                 "I am found in China, Myanmar, and possibly India",
-                "I am a water shrew",
                 "I can be found near cold, fast-flowing mountain streams",
                 "I mainly eat aquatic worms and small stream invertebrates",
-                "I am also called Styan's water shrew"
+                "I am also called Styan's water shrew",
+                "I am a water shrew"
         ]
     },
     {
@@ -107,9 +107,9 @@ export const WATER_SHREW_DATA: Species[] = [
                 "I am a least concern species",
                 "I am found in Sikkim and China",
                 "I live in mountain streams and stream beds",
-                "I am a water shrew",
                 "I have velvety grey and white fur",
-                "I am also known as the Tibetan Water Shrew"
+                "I have red tipped teeth",
+                "I am a water shrew",
         ]
     },
     {
@@ -122,10 +122,10 @@ export const WATER_SHREW_DATA: Species[] = [
         [
                 "I am a least concern species",
                 "I eat two or three times my body mass each day",
-                "I am a water shrew",
                 "I mainly eat amphibians and small fish",
                 "I am also known as the Southern or Miller's water shrew",
-                "I live widely across central and southern Europe through to western European Russia"
+                "I live widely across central and southern Europe through to western European Russia",
+                "I am a water shrew"
         ]
     },
     {
@@ -138,10 +138,10 @@ export const WATER_SHREW_DATA: Species[] = [
         [
                 "I am a least concern species",
                 "I can be found in France, Portugal, and Spain",
-                "I am a water shrew",
                 "I am almost identical to the Mediterrean water shrew",
                 "I have a dark colored back",
-                "I mainly eat amphibians and small fish"
+                "I mainly eat amphibians and small fish",
+                "I am a water shrew"
         ]
     },
     {
@@ -152,12 +152,12 @@ export const WATER_SHREW_DATA: Species[] = [
         range: "Great Britain and mainland Europe eastward through Siberia to the Pacific coast and North Korea",
         clues: 
         [
-                "I am a water shrew",
                 "I am a least concern species",
                 "I am realatively large",
                 "I have venomous saliva",
                 "I am primarily nocturnal",
-                "I am found in Europe and Asia"
+                "I am found in Europe and Asia",
+                "I am a water shrew"
         ]
     },
     {
@@ -170,10 +170,10 @@ export const WATER_SHREW_DATA: Species[] = [
         [
                 "I am a least concern species",
                 "I am found in Armenia, Azerbaijan, Georgia, and possibly Iran and Turkey",
-                "I am a water shrew",
                 "I am rarely spotted, with fewer than 100 recorded observations",
                 "I feed on different arthropods, worms, mollusks, fry and tadpoles",
-                "I am threatened by water pollution"
+                "I am threatened by water pollution",
+                "I am a water shrew"
         ]
     },
     {
@@ -187,9 +187,9 @@ export const WATER_SHREW_DATA: Species[] = [
                 "My conservation status is data deficient",
                 "I am endemic to Alaska",
                 "I eat aquatic fly nymphs and terrestrial invertebrates",
-                "I am a water shrew",
                 "I am pressumed to live in wet areas, bogs, and streams",
-                "I have no population estimate and have been recorded few times"
+                "I have no population estimate and have been recorded few times",
+                "I am a water shrew"
         ]
     },
     {

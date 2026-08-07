@@ -40,9 +40,9 @@ export const TAPIR_DATA: Species[] = [
                 "I am an endangered species",
                 "I can only be found in certain portions of the Andean Mountain Range",
                 "I am black or very dark brown",
-                "I have a flexible proboscis",
                 "I am an herbivore",
-                "I am a keystone species"
+                "I am a keystone species",
+                "I have a flexible proboscis"
             ]
     },
     {
@@ -52,12 +52,12 @@ export const TAPIR_DATA: Species[] = [
         scientificName: "Tapirus indicus",
         range: "Southeast Asia from the Malay Peninsula to Sumatra",
         clues: [
-                "I have a flexible proboscis",
                 "I am an endangered species",
                 "I have black hair and a light-colored patch that extends from my shoulders to my hindquarters",
                 "I am an herbivore, eating over 115 species of plants",
                 "I am crepsecular",
-                "I have few natural predators due to my size and powerful bite"
+                "I have few natural predators due to my size and powerful bite",
+                "I have a flexible proboscis"
             ]
     }
 ];

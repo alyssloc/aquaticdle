@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Archive() {
-    // archive starts on 07/20/2026
+    // archive starts on 08/06/2026
     const START_YEAR = 2026;
-    const START_MONTH = 6; 
-    const START_DAY = 20;
+    const START_MONTH = 7; 
+    const START_DAY = 6;
 
     const monthNames = [
         'January', 'February', 'March', 'April', 'May', 'June',

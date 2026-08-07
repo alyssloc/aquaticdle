@@ -11,8 +11,8 @@ export const PORPOISE_DATA: Species[] = [
                 "I am typically a uniform, light gray color",
                 "I am one of the species protected at Sundarbans National Park",
                 "I have relatively poor eyesight",
-                "I am a porpoise",
-                "I can weigh up to 159 lbs"
+                "I can weigh up to 159 lbs",
+                "I am a porpoise"
             ]
     },
     {
@@ -26,8 +26,8 @@ export const PORPOISE_DATA: Species[] = [
                 "I prefer to stay in shallow water",
                 "I can be found in groups of three to six",
                 "I eat fish, shrimp and squid",
-                "I am a porpoise",
-                "My primary threat is environmental degradation"
+                "My primary threat is environmental degradation",
+                "I am a porpoise"
             ]
     },
     {
@@ -86,8 +86,8 @@ export const PORPOISE_DATA: Species[] = [
                 "I am countershaded, with a black dorsal region which is sharply delineated from a white belly",
                 "I have black eye patches",
                 "Little is known about me",
-                "I am a porpoise",
-                "I have a triagular dorsal fin"
+                "I have a triagular dorsal fin",
+                "I am a porpoise"
             ]
     },
     {
