@@ -44,7 +44,10 @@ export default function Aquaticdle({ archiveDate }: { archiveDate?: string }) {
 
     const [clues] = useState<string[]>(() => {
         if (savedState && savedState.clues) return savedState.clues;
-        return shuffle([...species.clues]);
+        const dateSeed = targetDateObj.getUTCFullYear() * 10000 + 
+                         (targetDateObj.getUTCMonth() + 1) * 100 + 
+                         targetDateObj.getUTCDate();
+        return shuffle([...species.clues], dateSeed);
     });
 
     const [attempts, setAttempts] = useState<number>(savedState ? savedState.attempts : 0);
